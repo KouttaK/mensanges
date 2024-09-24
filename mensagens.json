@@ -1,64 +1,107 @@
-{
-    "mensagens": {
-        "LOS sem valor": {
-            "texto": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "Suspeita de LOS"
-        },
-        "Rota Inoperante": {
-            "texto": "Fez contato para relatar a ausência de acesso. Foi explicado que a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
-            "etiqueta": "Rota Inoperante - FTTH"
-        },
-        "Desconto por Rota Inoperante": {
-            "texto": "Entra em contato para solicitar desconto referente ao tempo que ficou sem acesso. Foi repassado que o desconto é fornecido somente pelo nosso setor financeiro, que pode ser contatado por ligação no número 0800 281 3017.",
-            "etiqueta": "Informações do serviço"
-        },
-        "OLT em manutenção": {
-            "texto": "Entrou em contato relatando falta de internet. Foi informado que há uma manutenção em andamento na OLT que afeta o sinal do cliente e de vários outros clientes. Foi repassado o prazo máximo de normalização conforme a URA, porém o serviço pode voltar a qualquer momento. Cliente foi orientado a entrar em contato com o setor financeiro para solicitar desconto referente ao tempo sem acesso após a normalização. Cliente ciente e de acordo.",
-            "etiqueta": "Problema na OLT"
-        },
-        "PON Piscando - Resolvido": {
-            "texto": "Relata que está enfrentando uma interrupção na sua conexão com a internet. Após indagar sobre a situação do LED PON, o cliente confirma que ele está piscando. Ao constatar que a rota está operante, foram executados os procedimentos padrões conforme documentados nos registros de eventos. Após a execução dessas ações, a conectividade foi restabelecida com êxito.",
-            "etiqueta": "PON piscando"
-        },
-        "PON piscando - Externo": {
-            "texto": "Relata que está enfrentando uma interrupção na sua conexão com a internet. Após questionar sobre a situação do LED PON, o cliente confirma que ele está piscando. Ao constatar que a rota está operante, foram executados os procedimentos padrões conforme documentados nos registros de eventos. O cliente informou que o acesso continua interrompido, desta forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "PON piscando"
-        },
-        "PON piscando - GPON": {
-            "texto": "Entra em contato informando que está sem acesso, verificado que o LED PON está piscando, dessa forma foi reconfigurado a ONU e o problema persistiu. Foi tentado mais uma vez e o problema ainda persiste. O problema foi repassado pela liderança para o GPON verificar. Prazo de 24 horas. Cliente ciente do retorno.",
-            "etiqueta": "PON piscando"
-        },
-        "PON apagada - Resolvido": {
-            "texto": "Entrou em contato informando que os serviços da Brisanet estão sem sinal. Ao ser questionado sobre a ativação do LED PON e a ocorrência de acidentes ou remoção de equipamento, o cliente negou qualquer incidente. Após verificar que a rota está normal, procedeu-se à reconfiguração e reinicialização do modem ONU, além de conectá-lo em outra tomada de energia. O cliente reportou que o acesso foi normalizado.",
-            "etiqueta": "PON apagada"
-        },
-        "PON apagada - Externo": {
-            "texto": "Entrou em contato relatando uma interrupção em sua conexão com a internet. Após questionar sobre a situação do LED PON, o cliente confirmou que ele está apagado. Ao constatar que a rota está operante, seguimos os procedimentos padrões conforme documentados nos registros de eventos. Adicionalmente, conectamos o equipamento em outra tomada de energia e verificamos o botão 'ON/OFF'. No entanto, o cliente informou que o acesso continua interrompido. Diante dessa situação, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local e resolver o problema. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "PON apagada"
-        },
-        "Fibra Rompida": {
-            "texto": "Relata que algo rompeu o cabo de fibra fora de sua residência. Não foi necessário realizar alguma sondagem. Foi aberta uma ordem de serviço para resolução do problema e a visita técnica agendada para de acordo com a disponibilidade do cliente.",
-            "etiqueta": "Cabo de Fibra Rompido"
-        },
-        "Fibra baixa": {
-            "texto": "Relata sobre um cabo de fibra solto fora de sua residência, foi aberta uma Ordem de Serviço (OS) para verificação. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH"
-        },
-        "Fibra ressecada": {
-            "texto": "Relata que o cabo de fibra está ressecado em sua residência, onde ninguém mexeu. O cabo corre o risco de ser roto. Foi aberta uma ordem de serviço para verificar o problema. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "Troca de cabo de fibra - FTTH"
-        },
-        "Remanejamento de cabo de fibra": {
-            "texto": "Relata sobre a necessidade do remanejamento do cabo de fibra, pois está passando sobre propriedades alheias. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH"
-        },
-        "Instalação mal sucedida": {
-            "texto": "Entrou em contato informando que os serviços da Brisanet foram instalados recentemente, mas já está sem acesso. Após a confirmação de que o mesmo está sem sinal óptico e considerando que a instalação ocorreu há menos de 7 dias corridos, será aberta uma reclamação de instalação para a equipe ir ao local resolver o problema. O cliente está ciente e aguardando. Agendado de acordo com a disponibilidade do cliente.",
-            "etiqueta": "Instalação mal sucedida (sem acesso) - 7d"
-        },
-        "Comando CRM": {
-            "texto": "Relata que está sem acesso à internet. Verificamos o comando CRM no sistema e reforçamos o prazo de 24 horas para a resolução do problema. Ressaltamos que se trata do comando de ativação do serviço.",
-            "etiqueta": "Sem acesso"
-        }
+[
+    {
+        "titulo": "Suspeita de LOS",
+        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "LOS"
+    },
+    {
+        "titulo": "Rota Inoperante",
+        "mensagem": "Fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Rota Inoperante - FTTH"
+    },
+    {
+        "titulo": "Desconto por Rota Inoperante",
+        "mensagem": "Entra em contato para solicitar desconto referente ao tempo que ficou sem acesso. Foi repassado que o desconto é fornecido somente pelo nosso setor financeiro, que pode ser contactado por ligação no número 0800 281 3017.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Informações do serviço"
+    },
+    {
+        "titulo": "OLT em Manutenção",
+        "mensagem": "Entrou em contato relatando falta de internet. Foi informado que há uma manutenção em andamento na OLT que afeta o sinal do cliente e de vários outros clientes. Foi repassado o prazo máximo de normalização conforme a URA, porém o serviço pode voltar a qualquer momento. Cliente foi orientado a entrar em contato com o setor financeiro para solicitar desconto referente ao tempo sem acesso após a normalização. Cliente ciente e de acordo.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Problema na OLT"
+    },
+    {
+        "titulo": "PON Piscando - Resolvido",
+        "mensagem": "Relata que está enfrentando uma interrupção na sua conexão com a internet. Após indagar sobre a situação do LED PON, o cliente confirma que ele está piscando. Ao constatar que a rota está operante, foram executados os procedimentos padrões conforme documentados nos registros de eventos. Após a execução dessas ações, a conectividade foi restabelecida com êxito.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "PON piscando - FTTH"
+    },
+    {
+        "titulo": "PON Piscando - Externo",
+        "mensagem": "Relata que está enfrentando uma interrupção na sua conexão com a internet. Após questionar sobre a situação do LED PON, o cliente confirma que ele está piscando. Ao constatar que a rota está operante, foram executados os procedimentos padrões conforme documentados nos registros de eventos. O cliente informou que o acesso continua interrompido, desta forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "PON piscando - FTTH"
+    },
+    {
+        "titulo": "PON Piscando - GPON",
+        "mensagem": "Entra em contato informando que está sem acesso, verificado que o LED PON está piscando, dessa forma foi reconfigurado a ONU e o problema persistiu. Foi tentado mais uma vez e o problema ainda persiste. O problema foi repassado pela liderança para o GPON verificar. Prazo de 24 horas. Cliente ciente do retorno.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "PON piscando - FTTH"
+    },
+    {
+        "titulo": "PON Apagada - Resolvido",
+        "mensagem": "Entrou em contato informando que os serviços da Brisanet estão sem sinal. Ao ser questionado sobre a ativação da LED PON e a ocorrência de acidentes ou remoção de equipamento, o cliente negou qualquer incidente. Após verificar que a rota está normal, procedeu-se à reconfiguração e reinicialização do modem ONU, além de conectá-lo em outra tomada de energia. O cliente reportou que o acesso foi normalizado.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "PON apagada - FTTH"
+    },
+    {
+        "titulo": "PON Apagada - FTTH",
+        "mensagem": "Entrou em contato relatando uma interrupção em sua conexão com a internet. Após questionar sobre a situação do LED PON, o cliente confirmou que ele está apagado. Ao constatar que a rota está operante, seguimos os procedimentos padrões conforme documentados nos registros de eventos. Adicionalmente, conectamos o equipamento em outra tomada de energia e verificamos o botão 'ON/OFF'. No entanto, o cliente informou que o acesso continua interrompido. Diante dessa situação, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local e resolver o problema. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "PON apagada - FTTH"
+    },
+    {
+        "titulo": "Fibra Rompida",
+        "mensagem": "Relata que algo rompeu o cabo de fibra fora de sua residência. Não foi necessário realizar alguma sondagem. Foi aberta uma ordem de serviço para resolução do problema e a visita técnica agendada para de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "Cabo da fibra rompido"
+    },
+    {
+        "titulo": "Fibra Ressecada",
+        "mensagem": "Relata que o cabo de fibra está ressecado em sua residência, onde ninguém mexeu. O cabo corre o risco de ser roto. Foi aberta uma ordem de serviço para verificar o problema. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "Troca de cabo fibra - FTTH"
+    },
+    {
+        "titulo": "Remanejamento de Fibra",
+        "mensagem": "Relata sobre a necessidade do remanejamento do cabo de fibra, pois, está passando sobre propriedades alheias. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH"
+    },
+    {
+        "titulo": "Fibra Baixa",
+        "mensagem": "Relata sobre um cabo de fibra solto fora de sua residência, foi aberta uma Ordem de Serviço (OS) para verificação. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH"
+    },
+    {
+        "titulo": "Instalação Mal Sucedida",
+        "mensagem": "Entrou em contato informando que os serviços da Brisanet foram instalados recentemente, mas já está sem acesso. Após a confirmação de que o mesmo está sem sinal óptico e considerando que a instalação ocorreu há menos de 7 dias corridos, será aberta uma reclamação de instalação para a equipe ir ao local resolver o problema. O cliente está ciente e aguardando. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "Instalação mal sucedida (sem acesso) - 7d"
+    },
+    {
+        "titulo": "Comando CRM",
+        "mensagem": "Relata que está sem acesso à internet. Verificamos o comando CRM no sistema e reforçamos o prazo de 24 horas para a resolução do problema. Ressaltamos que se trata do comando de ativação do serviço.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Sem acesso"
     }
-}
+]
