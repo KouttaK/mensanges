@@ -106,189 +106,189 @@
     },
     {
         "titulo": "Lentidão - Resolvida",
-        "descricao": "Fez contato para relatar lentidão em sua conexão. Após verificar, constatou-se que o problema limitava-se à rede Wi-Fi. O cliente informou que o acesso foi normalizado.",
+        "mensagem": "Fez contato para relatar lentidão em sua conexão. Após verificar, constatou-se que o problema limitava-se à rede Wi-Fi. O cliente informou que o acesso foi normalizado.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Lentidão - Externo",
-        "descricao": "Fez contato para relatar lentidão recorrente. Após verificação, o cliente informou que o acesso foi normalizado, mas continuará testando ao longo do dia.",
+        "mensagem": "Fez contato para relatar lentidão recorrente. Após verificação, o cliente informou que o acesso foi normalizado, mas continuará testando ao longo do dia.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Lentidão - Ficou testando",
-        "descricao": "Fez contato para relatar lentidão. O acesso continua instável, foi gerada uma Ordem de Serviço para inspeção no local.",
+        "mensagem": "Fez contato para relatar lentidão. O acesso continua instável, foi gerada uma Ordem de Serviço para inspeção no local.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Lentidão - Recorrente",
-        "descricao": "O cliente destaca que a questão é recorrente e deseja análise externa. Uma Ordem de Serviço foi aberta para resolver o problema.",
+        "mensagem": "O cliente destaca que a questão é recorrente e deseja análise externa. Uma Ordem de Serviço foi aberta para resolver o problema.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Resolvido",
-        "descricao": "Relatou quedas de acesso em sua conexão. O acesso foi normalizado após procedimentos realizados.",
+        "mensagem": "Relatou quedas de acesso em sua conexão. O acesso foi normalizado após procedimentos realizados.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Externo",
-        "descricao": "O cliente informou que o acesso foi normalizado, mas fará novos testes e pode entrar em contato novamente.",
+        "mensagem": "O cliente informou que o acesso foi normalizado, mas fará novos testes e pode entrar em contato novamente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Ficou testando",
-        "descricao": "Relatou quedas de acesso e foi gerada uma Ordem de Serviço para inspeção no local devido à instabilidade.",
+        "mensagem": "Relatou quedas de acesso e foi gerada uma Ordem de Serviço para inspeção no local devido à instabilidade.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Ficou testando",
-        "descricao": "O cliente deseja análise externa e uma Ordem de Serviço será aberta para resolver a situação recorrente.",
+        "mensagem": "O cliente deseja análise externa e uma Ordem de Serviço será aberta para resolver a situação recorrente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
         "titulo": "Sem gerencia - Resolvido",
-        "descricao": "O acesso foi restabelecido após reinício do roteador TP-link e reconfiguração remota.",
+        "mensagem": "O acesso foi restabelecido após reinício do roteador TP-link e reconfiguração remota.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Sem acesso TP-LINK"
     },
     {
         "titulo": "Sem gerencia - Externo",
-        "descricao": "Não foi possível restabelecer o acesso, gerada Ordem de Serviço para inspeção no local.",
+        "mensagem": "Não foi possível restabelecer o acesso, gerada Ordem de Serviço para inspeção no local.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sem acesso TP-LINK"
     },
     {
         "titulo": "Sem acesso com sinal - Resolvido",
-        "descricao": "O acesso foi normalizado após procedimentos realizados.",
+        "mensagem": "O acesso foi normalizado após procedimentos realizados.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Sem acesso"
     },
     {
         "titulo": "Sem acesso com sinal - Externo",
-        "descricao": "O cliente continua sem acesso; gerada Ordem de Serviço para inspeção no local.",
+        "mensagem": "O cliente continua sem acesso; gerada Ordem de Serviço para inspeção no local.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sem acesso"
     },
     {
         "titulo": "Senha da rede wi-fi incorreta",
-        "descricao": "Acesso foi normalizado após geração de nova senha.",
+        "mensagem": "Acesso foi normalizado após geração de nova senha.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi"
     },
     {
         "titulo": "Sinal irregular - externo",
-        "descricao": "Gerada Ordem de Serviço para inspeção no local devido a irregularidade no sinal da PON.",
+        "mensagem": "Gerada Ordem de Serviço para inspeção no local devido a irregularidade no sinal da PON.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sinal da fibra do cliente irregular - FTTH"
     },
     {
         "titulo": "Rota com sinal irregular",
-        "descricao": "Anomalia no sinal da PON; prazo de 24 horas informado para resolução.",
+        "mensagem": "Anomalia no sinal da PON; prazo de 24 horas informado para resolução.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Rota com sinal irregular - FTTH"
     },
     {
         "titulo": "Rede sumiu",
-        "descricao": "A conexão foi restabelecida após alterações na configuração da rede.",
+        "mensagem": "A conexão foi restabelecida após alterações na configuração da rede.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Instabilidade TP-LINK"
     },
     {
         "titulo": "Ping na rede cabeada - Resolvido",
-        "descricao": "Latência reduzida para 60 ms após reconfiguração da rede.",
+        "mensagem": "Latência reduzida para 60 ms após reconfiguração da rede.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Ping alto"
     },
     {
         "titulo": "Ping na rede cabeada - Ficou testando",
-        "descricao": "O cliente foi instruído a monitorar a latência e entrar em contato se persistir.",
+        "mensagem": "O cliente foi instruído a monitorar a latência e entrar em contato se persistir.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Ping alto"
     },
     {
         "titulo": "Alteração de senha - Resolvido",
-        "descricao": "Senha gerada e cliente com acesso.",
+        "mensagem": "Senha gerada e cliente com acesso.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi"
     },
     {
         "titulo": "Alteração de senha - Inativo",
-        "descricao": "O cliente ficou sem interagir até o encerramento do atendimento.",
+        "mensagem": "O cliente ficou sem interagir até o encerramento do atendimento.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi"
     },
     {
         "titulo": "Plano no cabo - Resolvido",
-        "descricao": "Velocidade atingiu o contratado após procedimentos realizados.",
+        "mensagem": "Velocidade atingiu o contratado após procedimentos realizados.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no cabo - Externo",
-        "descricao": "Velocidade inferior à garantida; gerada Ordem de Serviço para inspeção no local.",
+        "mensagem": "Velocidade inferior à garantida; gerada Ordem de Serviço para inspeção no local.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no cabo - Ficou testando",
-        "descricao": "O cliente testará novamente e pode entrar em contato se a situação persistir.",
+        "mensagem": "O cliente testará novamente e pode entrar em contato se a situação persistir.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Placa de rede FE",
-        "descricao": "Problema identificado na placa de rede FE; cliente ciente da situação.",
+        "mensagem": "Problema identificado na placa de rede FE; cliente ciente da situação.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Placa de rede FE - externo",
-        "descricao": "O cliente deseja inspeção no local devido à identificação do problema na placa de rede.",
+        "mensagem": "O cliente deseja inspeção no local devido à identificação do problema na placa de rede.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no wi-fi - externo",
-        "descricao": "Gerada Ordem de Serviço para inspeção no local devido à velocidade inferior à garantida.",
+        "mensagem": "Gerada Ordem de Serviço para inspeção no local devido à velocidade inferior à garantida.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no wi-fi - Ficou testando",
-        "descricao": "O cliente realizará testes e informará sobre a situação ao entrar em contato.",
+        "mensagem": "O cliente realizará testes e informará sobre a situação ao entrar em contato.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
