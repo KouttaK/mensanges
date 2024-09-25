@@ -106,140 +106,133 @@
     },
     {
         "titulo": "Lentidão - Resolvida",
-        "mensagem": "Fez contato para relatar lentidão em sua conexão. Após verificar, constatou-se que o problema limitava-se à rede Wi-Fi. O cliente informou que o acesso foi normalizado.",
+        "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado. ",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Lentidão - Externo",
-        "mensagem": "Fez contato para relatar lentidão recorrente. Após verificação, o cliente informou que o acesso foi normalizado, mas continuará testando ao longo do dia.",
+        "mensagem": "fez contato para relatar lentidão em sua conexão recorrentemente. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que a princípio o acesso foi normalizado, mas irá continuar realizando testes ao longo do restante do dia e, caso a instabilidade persista, ele irá entrar em contato conosco para que possamos verificar ou providenciar o envio de uma equipe ao local, se necessário.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Lentidão - Ficou testando",
-        "mensagem": "Fez contato para relatar lentidão. O acesso continua instável, foi gerada uma Ordem de Serviço para inspeção no local.",
+        "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso continua instável, desta forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Lentidão - Recorrente",
-        "mensagem": "O cliente destaca que a questão é recorrente e deseja análise externa. Uma Ordem de Serviço foi aberta para resolver o problema.",
+        "mensagem": "informa estar enfrentando lentidão. Após verificação, observa-se que o problema afeta todos os dispositivos e se restringe à rede sem fio. Eu menciono a intenção de atualizar a rede, no entanto, o cliente destaca que essa questão é recorrente e deseja que uma equipe externa conduza uma análise, uma vez que já havia contatado previamente sem sucesso. Diante da insatisfação do cliente e da constatação de que se trata de uma situação frequente ainda não atendida localmente, uma Ordem de Serviço (O.S.) vai ser aberta para resolver o problema e garantir a retenção do cliente. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Resolvido",
-        "mensagem": "Relatou quedas de acesso em sua conexão. O acesso foi normalizado após procedimentos realizados.",
+        "mensagem": "fez contato para relatar quedas de acesso em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado. ",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Externo",
-        "mensagem": "O cliente informou que o acesso foi normalizado, mas fará novos testes e pode entrar em contato novamente.",
+        "mensagem": "fez contato para relatar quedas de acesso em sua conexão recorrentemente. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que a princípio o acesso foi normalizado, mas irá continuar realizando testes ao longo do restante do dia e, caso a instabilidade persista, ele irá entrar em contato conosco para que possamos verificar ou providenciar o envio de uma equipe ao local, se necessário.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
         "titulo": "Quedas de conexão - Ficou testando",
-        "mensagem": "Relatou quedas de acesso e foi gerada uma Ordem de Serviço para inspeção no local devido à instabilidade.",
+        "mensagem": "fez contato para relatar quedas de acesso em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso continua instável, desta forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Quedas de conexão - FTTH"
     },
     {
-        "titulo": "Quedas de conexão - Ficou testando",
-        "mensagem": "O cliente deseja análise externa e uma Ordem de Serviço será aberta para resolver a situação recorrente.",
-        "externo": true,
-        "aguardar": false,
-        "etiqueta": "Quedas de conexão - FTTH"
-    },
-    {
         "titulo": "Sem gerencia - Resolvido",
-        "mensagem": "O acesso foi restabelecido após reinício do roteador TP-link e reconfiguração remota.",
+        "mensagem": "fez contato para comunicar a ausência de acesso. Foi verificado que a ONU apresentava sinal e o roteador não estava gerenciando a conexão. Após verificar a conexão do cabo, orientou-se o cliente a reiniciar o roteador TP-link. Paralelamente, foi efetuada uma reconfiguração remota. Com base na realização desses passos, foi possível restabelecer o acesso.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Sem acesso TP-LINK"
     },
     {
         "titulo": "Sem gerencia - Externo",
-        "mensagem": "Não foi possível restabelecer o acesso, gerada Ordem de Serviço para inspeção no local.",
+        "mensagem": "fez contato para comunicar a ausência de acesso. Foi verificado que a ONU apresentava sinal e o roteador não estava gerenciando a conexão. Após verificar a conexão do cabo, orientou-se o cliente a reiniciar o roteador TP-link. Paralelamente, foi efetuada uma reconfiguração remota. Mesmo após a realização desses passos, não foi possível restabelecer o acesso, dessa forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sem acesso TP-LINK"
     },
     {
         "titulo": "Sem acesso com sinal - Resolvido",
-        "mensagem": "O acesso foi normalizado após procedimentos realizados.",
+        "mensagem": "fez contato para comunicar a ausência de acesso. Foi verificado que a ONU apresentava sinal e o roteador não estava gerenciando a conexão. Após verificar a conexão do cabo, orientou-se o cliente a reiniciar o roteador TP-link. Paralelamente, foi efetuada uma reconfiguração remota. Com base na realização desses passos, foi possível restabelecer o acesso.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Sem acesso"
     },
     {
         "titulo": "Sem acesso com sinal - Externo",
-        "mensagem": "O cliente continua sem acesso; gerada Ordem de Serviço para inspeção no local.",
+        "mensagem": "fez contato para comunicar a ausência de acesso. Foi verificado que a ONU apresentava sinal e o roteador não estava gerenciando a conexão. Após verificar a conexão do cabo, orientou-se o cliente a reiniciar o roteador TP-link. Paralelamente, foi efetuada uma reconfiguração remota. Mesmo após a realização desses passos, não foi possível restabelecer o acesso, dessa forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sem acesso"
     },
     {
         "titulo": "Senha da rede wi-fi incorreta",
-        "mensagem": "Acesso foi normalizado após geração de nova senha.",
+        "mensagem": "relata que está sem acesso à internet. Verificamos que a rede Wi-Fi do cliente não conecta, com a mensagem de erro de autenticação. A falha na autenticação pode ter sido causada por uma senha incorreta ou por um problema no roteador. Geramos uma nova senha para o cliente e o acesso foi normalizado. ",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi"
     },
     {
         "titulo": "Sinal irregular - externo",
-        "mensagem": "Gerada Ordem de Serviço para inspeção no local devido a irregularidade no sinal da PON.",
+        "mensagem": "relata sobre falta de acesso à internet, foi constatada irregularidade no sinal da PON. A rota foi verificada e estava dentro dos padrões. Questionado sobre possíveis incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Diante disso, foi gerada uma Ordem de Serviço (OS) para inspeção presencial no local, a ser agendada conforme disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sinal da fibra do cliente irregular - FTTH"
     },
     {
         "titulo": "Rota com sinal irregular",
-        "mensagem": "Anomalia no sinal da PON; prazo de 24 horas informado para resolução.",
+        "mensagem": "relata interrupção do serviço de acesso à internet. Após análise, constatou-se anomalia no sinal da PON. A rota foi verificada e apresenta falhas. O cliente foi informado sobre o prazo de 24 horas para a resolução do problema, que está relacionado à rota.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Rota com sinal irregular - FTTH"
     },
     {
         "titulo": "Rede sumiu",
-        "mensagem": "A conexão foi restabelecida após alterações na configuração da rede.",
+        "mensagem": "relatou que estava sem conexão com a internet e que o nome da rede Wi-Fi não estava aparecendo. Após realizar algumas alterações na configuração da rede, a conexão foi restabelecida com o nome e senha originais. O usuário confirmou que a internet voltou a funcionar corretamente.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Instabilidade TP-LINK"
     },
     {
         "titulo": "Ping na rede cabeada - Resolvido",
-        "mensagem": "Latência reduzida para 60 ms após reconfiguração da rede.",
+        "mensagem": "relatou problemas com alta latência (ping) ao jogar, mesmo utilizando uma conexão cabeada. Após confirmar as informações do titular, foi feita uma reconfiguração da rede e o cliente foi orientado a reiniciar o roteador. A latência foi reduzida para 60 ms, ficando dentro da garantia da brisanet. ",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Ping alto"
     },
     {
         "titulo": "Ping na rede cabeada - Ficou testando",
-        "mensagem": "O cliente foi instruído a monitorar a latência e entrar em contato se persistir.",
+        "mensagem": "relatou problemas com alta latência (ping) ao jogar, mesmo utilizando uma conexão cabeada. Após confirmar as informações do titular, foi feita uma reconfiguração da rede e o cliente foi orientado a reiniciar o roteador. A latência foi reduzida para 60 ms, ficando dentro da garantia da brisanet. O cliente foi instruído a monitorar o desempenho ao longo do dia e a entrar em contato novamente se o problema persistir, para que uma equipe técnica especializada possa ser enviada.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Ping alto"
     },
     {
         "titulo": "Alteração de senha - Resolvido",
-        "mensagem": "Senha gerada e cliente com acesso.",
+        "mensagem": "solicitou a alteração da senha da rede Wi-Fi. Foi explicado que a senha é gerada aleatoriamente e composta por caracteres minúsculos. Senha gerada e cliente com acesso",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi"
     },
     {
         "titulo": "Alteração de senha - Inativo",
-        "mensagem": "O cliente ficou sem interagir até o encerramento do atendimento.",
+        "mensagem": "solicitou a alteração da senha da rede Wi-Fi. Foi explicado que a senha é gerada aleatoriamente e composta por caracteres minúsculos. Senha gerada, porém, o cliente ficou sem interagir até o encerramento do atendimento.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi"
