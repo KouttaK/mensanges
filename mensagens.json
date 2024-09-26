@@ -239,51 +239,233 @@
     },
     {
         "titulo": "Plano no cabo - Resolvido",
-        "mensagem": "Velocidade atingiu o contratado após procedimentos realizados.",
+        "mensagem": "informou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Verificado o sinal óptico na sua PON está dentro dos padrões. Procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Além disso, verificamos a placa de rede é Gigabyte e o cabo de rede é CAT. 5E. Após essas verificações, realizamos um teste adicional no velocímetro, e agora a velocidade atingiu o contratado.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no cabo - Externo",
-        "mensagem": "Velocidade inferior à garantida; gerada Ordem de Serviço para inspeção no local.",
+        "mensagem": "informou estar enfrentando problemas de instabilidade, já que a velocidade do plano contratado não está sendo alcançada na rede cabeada. Verificado o sinal óptico de sua PON está dentro dos padrões. Executamos os procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Além disso, constatamos que a placa de rede é Gigabyte e o cabo de rede é CAT. 5E. Apesar dessas verificações, o teste adicional no velocímetro ainda indicou uma velocidade inferior à garantida. Diante disso, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no cabo - Ficou testando",
-        "mensagem": "O cliente testará novamente e pode entrar em contato se a situação persistir.",
+        "mensagem": "informou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Verificado o sinal óptico na sua PON está dentro dos padrões. Procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Além disso, verificamos a placa de rede é Gigabyte e o cabo de rede é CAT. 5E. Após essas verificações, realizamos um teste adicional no velocímetro, e agora a velocidade atingiu o contratado, porém, voltou a abaixar. Devido isso, o cliente ficou de continuar testando durante o restante do dia e caso continue persistido, irá entrar em contato para enviarmos uma equipe para analisar. ",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Placa de rede FE",
-        "mensagem": "Problema identificado na placa de rede FE; cliente ciente da situação.",
+        "mensagem": "relatou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Após verificar que o sinal óptico na sua PON está dentro dos padrões, procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Após essas verificações, realizamos um teste adicional no velocímetro; no entanto, a velocidade continuou na mesma média de 90 Mbps. Verificamos que o cabo de rede é CAT. 5E e, ao examinar a placa de rede, identificamos que o problema está sendo ocasionado pela placa de rede FE (/100). O cliente está ciente dessa situação.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Placa de rede FE - externo",
-        "mensagem": "O cliente deseja inspeção no local devido à identificação do problema na placa de rede.",
+        "mensagem": " relatou enfrentar problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Após verificar que o sinal óptico na sua PON está dentro dos padrões, realizamos os procedimentos padrão, conforme documentados nos registros de eventos, e recomendamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Após essas verificações, realizamos um teste adicional no velocímetro; no entanto, a velocidade continuou na mesma média de 90 Mbps. Verificamos que o cabo de rede é CAT. 5E e, ao examinar a placa de rede, identificamos que o problema está sendo ocasionado pela placa de rede FE (/100). O cliente está ciente dessa situação, mas deseja a visita de uma equipe para confirmar que está recebendo o serviço contratado. Diante disso, geramos uma Ordem de Serviço (O.S.) para realizar uma inspeção presencial no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no wi-fi - externo",
-        "mensagem": "Gerada Ordem de Serviço para inspeção no local devido à velocidade inferior à garantida.",
+        "mensagem": "relatou enfrentar problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede sem fio. Verificado o sinal óptico de sua PON estava dentro dos padrões. Nesse contexto, explicamos sobre a garantia de entrega de velocidade apenas na rede cabeada e oferecemos um procedimento remoto para tentar melhorar, embora não pudéssemos garantir o mesmo desempenho na rede sem fio. Procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do aparelho usado para testar. Apesar dessas verificações, o teste no velocímetro ainda indicou uma velocidade inferior à garantida. Diante dessa situação, o cliente solicitou a presença de uma equipe no local, com um notebook e cabo de rede da Brisanet para uma inspeção direta e comprovação da entrega do plano. Foi gerada uma Ordem de Serviço (O.S.) para efetuar essa inspeção. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
     },
     {
         "titulo": "Plano no wi-fi - Ficou testando",
-        "mensagem": "O cliente realizará testes e informará sobre a situação ao entrar em contato.",
+        "mensagem": "relatou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede sem fio. Verificamos que o sinal óptico de sua PON estava dentro dos padrões. Nesse contexto, explicamos sobre a garantia de entrega de velocidade apenas na rede cabeada e oferecemos um procedimento remoto para tentar melhorar, embora não pudéssemos garantir o mesmo desempenho na rede sem fio. Procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do aparelho usado para testar. Apesar dessas verificações, o teste no velocímetro ainda indicou uma velocidade inferior à garantida. Diante dessa situação, o cliente ficou de realizar o teste no cabo quando puder. ",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH"
+    },
+    {
+        "titulo": "Desconexão Chat",
+        "mensagem": "fez contato e durante o atendimento ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Desconexão Chat"
+    },
+    {
+        "titulo": "Desconexão Chat - Internet",
+        "mensagem": "fez contato para relatar problema em sua conexão a internet. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Desconexão Chat"
+    },
+    {
+        "titulo": "Desconexão Chat - Telefone fixo",
+        "mensagem": "fez contato para relatar problema em seu telefone fixo. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Desconexão Chat"
+    },
+    {
+        "titulo": "Desconexão Chat - BrisaTV",
+        "mensagem": "fez contato para relatar problema em seu serviço de TV. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Desconexão Chat"
+    },
+    {
+        "titulo": "Transferência",
+        "mensagem": "entrou em contato buscando informações ou um serviço que não se enquadrava na competência deste setor. Não houve necessidade de sondagem. Em vista disso, o cliente foi encaminhado ao setor competente para atender à sua demanda.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Solicitação de dados"
+    },
+    {
+        "titulo": "Ausência de confirmação da ID positiva",
+        "mensagem": "não procedeu com a confirmação dos dados correspondentes ao titular durante o decorrer do atendimento. Em razão da segurança do titular, o atendimento foi encerrado. Foi feita a requisição dos dados em três ocasiões.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Ausência de confirmação de dados"
+    },
+    {
+        "titulo": "Já solucionado",
+        "mensagem": "comunica que no início do atendimento a questão já foi solucionada, tornando desnecessária a continuação do suporte.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Informações do serviço"
+    },
+    {
+        "titulo": "Procedimento somente com o titular",
+        "mensagem": "solicita atendimento que envolve negociação/alteração de dados do cadastro, Por questões de segurança dos dados pessoais do titular, informamos que só podemos proceder após conversar diretamente com o titular do contrato.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Atendimento encerrado - Não é o titular"
+    },
+    {
+        "titulo": "Falta de cordialidade",
+        "mensagem": "reporta um problema nos serviços da brisanet. Entretanto, durante o atendimento, houve o uso de linguagem inadequada, o que me levou a encerrar a conversa.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade na entrega do serviço"
+    },
+    {
+        "titulo": "Não está no local",
+        "mensagem": "entra em contato informando problema nos serviços da Brisanet, porém, durante a sondagem foi verificado que o mesmo não está na residência para verificar ou testar o serviço. O mesmo ficou de entrar em contato quando estiver no local.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade na entrega do serviço"
+    },
+    {
+        "titulo": "Em horário de expediente",
+        "mensagem": "entra em contato informando problema nos serviços da Brisanet, porém, durante a sondagem foi verificado que o mesmo está em horário de expediente, e por isso não podemos realizar a tratativa do problema. O mesmo ficou de entrar em contato quando estiver disponível.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade na entrega do serviço"
+    },
+    {
+        "titulo": "Urgência de última hora",
+        "mensagem": "comunica dificuldades com o serviço da brisanet. Durante a verificação, constatou-se que o cliente não estava em disponível para dar continuidade ao processo. Ele entrará em contato quando estiver disponível.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade na entrega do serviço"
+    },
+    {
+        "titulo": "Solicitação de cancelamento",
+        "mensagem": "entrou em contato solicitando o cancelamento dos serviços Brisanet. Cliente ciente que o nosso setor de retenção entrará em contato com a mesma.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Solicitação de cancelamento"
+    },
+    {
+        "titulo": "Valores do cancelamento",
+        "mensagem": "busca informações sobre os valores do contrato de fidelização em caso de cancelamento. Identificamos um erro no sistema que impede a obtenção dessas informações. Encaminhamos o contato para o setor de retenção, capacitado para fornecer as informações desejadas.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Informação cancelamento"
+    },
+    {
+        "titulo": "Cobrança de cancelamento",
+        "mensagem": "entrou em contato para cobrar um retorno em relação à sua solicitação de cancelamento. Ele forneceu o número de contato, e o prazo para o retorno foi devidamente comunicado. Ainda, foi esclarecido que ele pode encurtar o processo ao se dirigir diretamente ao setor competente por meio do número 0800 281 3017. ",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Informação cancelamento"
+    },
+    {
+        "titulo": "Transfêrencia para o setor cancelamento",
+        "mensagem": "transferido para o setor de cancelamento. O cliente solicitou o cancelamento do serviço da brisanet e recusou qualquer tipo de tratativa.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Informação cancelamento"
+    },
+    {
+        "titulo": "Manutenção no Revan",
+        "mensagem": "fez contato, porém, foi explicado a ele que, naquele momento, o nosso sistema interno estava em manutenção e devido a isso, não tínhamos como fazer nenhum procedimento remoto, sendo necessário aguardar. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Sistema interno indisponível"
+    },
+    {
+        "titulo": "Instabilidade geral em TP-links",
+        "mensagem": "entra em contato informando instabilidade em seu roteador da TP-link. Verificado um problema geral onde não é possivel realizar nenhuma tratatativa em roteadores da marca TP-link. Repassado prazo conforme a URA.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade TP-Link"
+    },
+    {
+        "titulo": "Problema geral na cidade",
+        "mensagem": "relata instabilidade nos serviços da brisanet, devido a um problema geral na cidade do cliente, não foi possível realizar uma verificação completa no momento. Cliente foi orientado a entrar em contato novamente quando o acesso estiver normalizado. Cliente ciente e de acordo.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade TP-Link"
+    },
+    {
+        "titulo": "Problema em roteador particular - Técnico particular",
+        "mensagem": "relatou problemas com seu roteador particular, que estava sem acesso à internet. Após a verificação, foi constatado que o roteador da Brisanet estava funcionando normalmente, mas o roteador específico continuava sem conexão. Foi recomendado que o cliente reinicie o roteador particular, logo após ser reconfigurado os equipamentos da brisanet. Como o acesso não retornou, foi recomendado que verifique as configurações, conexões de cabos e possíveis interferências. Caso o problema persista, foi sugerido entrar em contato com o suporte técnico do roteador para assistência personalizada.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Suporte a equipamento particular"
+    },
+    {
+        "titulo": "BrisaCliente - Primeiro acesso",
+        "mensagem": "está buscando assistência para acessar o aplicativo BrisaCliente. Foi fornecido um guia com todos os passos",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "BrisaCliente"
+    },
+    {
+        "titulo": "BrisaCliente - Primeiro acesso escritorio",
+        "mensagem": "entrou em contato relatando que não estava recebendo o SMS de confirmação para realizar o primeiro acesso ao aplicativo BrisaCliente. Foi solicitado um número que pudesse receber SMS, mas o problema persistiu. Diante da falta de outro número disponível com o mesmo DDD, foi informado que seria necessário visitar uma loja ou escritório da empresa para que a configuração fosse realizada.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "BrisaCliente"
+    },
+    {
+        "titulo": "BrisaCliente - Recuperar a senha",
+        "mensagem": "pediu ajuda para recuperar a senha do aplicativo BrisaCliente. Enviamos um passo a passo para guiá-lo durante o processo de recuperação.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "BrisaCliente"
+    },
+    {
+        "titulo": "Globoplay - Primeiro acesso",
+        "mensagem": "está buscando assistência para acessar o aplicativo Globoplay. Foi fornecido um guia com todos os passos",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Globoplay"
+    },
+    {
+        "titulo": "Globoplay - Suporte do serviço",
+        "mensagem": "entrou em contato relatando um problema com o aplicativo GloboPlay na TV, mencionando que uma série que estava assistindo não carregava há duas semanas. Após realizar uma reconfiguração da rede e confirmar que a conexão estava funcionando corretamente, foi identificado que o problema estava no próprio aplicativo da GloboPlay. O cliente foi orientado a entrar em contato com o suporte da GloboPlay através dos números 0800 881 8000 ou 4003 8000 para resolver o problema.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Globoplay"
+    },
+    {
+        "titulo": "Netflix - Primeiro acesso",
+        "mensagem": "está buscando assistência para acessar o aplicativo Netflix. Foi fornecido um guia com todos os passos",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Netflix"
     }
 ]
