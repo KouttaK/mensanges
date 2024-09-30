@@ -601,5 +601,14 @@
         "etiqueta": "Netflix",
         "etiqueta_externo": "Netflix",
         "servico": "Reparo Rápido"
+    },
+    {
+        "titulo": "ONU travada",
+        "mensagem": "entrou em contato informando que estava sem internet desde o dia anterior. Após confirmação de que estava falando com o titular, foram solicitados a ID positiva. O cliente informou que havia somente a luz power acesa no modem, indicando que o equipamento estava travado. Foi explicado que seria necessária a visita de uma equipe técnica para resolver o problema.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Revisão de equipamento",
+        "etiqueta_externo": "Revisão de equipamento",
+        "servico": "Reparo Rápido"
     }
 ]
