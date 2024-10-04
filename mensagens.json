@@ -373,7 +373,7 @@
         "mensagem": "fez contato e durante o atendimento ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": "Desconexão Chat",
+        "etiqueta": " Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
         "servico": "Reparo Físico"
     },
