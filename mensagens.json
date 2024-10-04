@@ -72,7 +72,7 @@
         "servico": "Reparo Físico"
     },
     {
-        "titulo": "PON Apagada - FTTH",
+        "titulo": "PON Apagada - Externo",
         "mensagem": "Entrou em contato relatando uma interrupção em sua conexão com a internet. Após questionar sobre a situação do LED PON, o cliente confirmou que ele está apagado. Ao constatar que a rota está operante, seguimos os procedimentos padrões conforme documentados nos registros de eventos. Adicionalmente, conectamos o equipamento em outra tomada de energia e verificamos o botão 'ON/OFF'. No entanto, o cliente informou que o acesso continua interrompido. Diante dessa situação, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local e resolver o problema. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
         "aguardar": false,
