@@ -373,7 +373,7 @@
         "mensagem": "fez contato e durante o atendimento ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": " Desconexão chat",
+        "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
         "servico": "Reparo Físico"
     },
@@ -382,7 +382,7 @@
         "mensagem": "fez contato para relatar problema em sua conexão a internet. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": " Desconexão chat",
+        "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
         "servico": "Reparo Físico"
     },
@@ -391,7 +391,7 @@
         "mensagem": "fez contato para relatar problema em seu telefone fixo. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": " Desconexão chat",
+        "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
         "servico": "Reparo Físico"
     },
@@ -400,7 +400,7 @@
         "mensagem": "fez contato para relatar problema em seu serviço de TV. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": " Desconexão chat",
+        "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
         "servico": "Reparo Físico"
     },
