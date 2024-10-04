@@ -147,7 +147,7 @@
         "titulo": "Lentidão - Externo",
         "mensagem": "fez contato para relatar lentidão em sua conexão recorrentemente. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que a princípio o acesso foi normalizado, mas irá continuar realizando testes ao longo do restante do dia e, caso a instabilidade persista, ele irá entrar em contato conosco para que possamos verificar ou providenciar o envio de uma equipe ao local, se necessário.",
         "externo": true,
-        "aguardar": false,
+        "aguardar": true,
         "etiqueta": "Lentidão - FTTH",
         "etiqueta_externo": "Lentidão",
         "servico": "Reparo Rápido"
