@@ -333,6 +333,15 @@
         "servico": "Reparo Rápido"
     },
     {
+        "titulo": "Cabo de rede inferior ao CAT5E",
+        "mensagem": "informou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Verificado o sinal óptico na sua PON está dentro dos padrões. Procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Além disso, verificamos a placa de rede é Gigabyte e ao verificar o cabo de rede, foi descoberto que é um cabo inferior a CAT5E. Após essa verificação, foi explicado que o cabo de rede estava limitando a entrega do plano. Cliente ciente ficou de providenciar um novo cabo.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Plano não chega ao contratado - FTTH",
+        "etiqueta_externo": "Plano não chega ao contratado - FTTH",
+        "servico": "Reparo Rápido"
+    },
+    {
         "titulo": "Placa de rede FE",
         "mensagem": "relatou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Após verificar que o sinal óptico na sua PON está dentro dos padrões, procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Após essas verificações, realizamos um teste adicional no velocímetro; no entanto, a velocidade continuou na mesma média de 90 Mbps. Verificamos que o cabo de rede é CAT. 5E e, ao examinar a placa de rede, identificamos que o problema está sendo ocasionado pela placa de rede FE (/100). O cliente está ciente dessa situação.",
         "externo": false,
@@ -345,6 +354,15 @@
         "titulo": "Placa de rede FE - externo",
         "mensagem": " relatou enfrentar problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede cabeada. Após verificar que o sinal óptico na sua PON está dentro dos padrões, realizamos os procedimentos padrão, conforme documentados nos registros de eventos, e recomendamos alguns procedimentos manuais usuais, incluindo o reinício do computador. Após essas verificações, realizamos um teste adicional no velocímetro; no entanto, a velocidade continuou na mesma média de 90 Mbps. Verificamos que o cabo de rede é CAT. 5E e, ao examinar a placa de rede, identificamos que o problema está sendo ocasionado pela placa de rede FE (/100). O cliente está ciente dessa situação, mas deseja a visita de uma equipe para confirmar que está recebendo o serviço contratado. Diante disso, geramos uma Ordem de Serviço (O.S.) para realizar uma inspeção presencial no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
+        "aguardar": false,
+        "etiqueta": "Plano não chega ao contratado - FTTH",
+        "etiqueta_externo": "Plano não chega ao contratado",
+        "servico": "Reparo Rápido"
+    },
+    {
+        "titulo": "Plano no wi-fi - Resolvido",
+        "mensagem": "relatou estar enfrentando problemas de instabilidade, pois a velocidade do plano contratado não está sendo alcançada na rede sem fio. Verificamos que o sinal óptico de sua PON estava dentro dos padrões. Nesse contexto, explicamos sobre a garantia de entrega de velocidade apenas na rede cabeada e oferecemos um procedimento remoto para tentar melhorar, embora não pudéssemos garantir o mesmo desempenho na rede sem fio. Procedemos à execução dos procedimentos padrões, conforme documentados nos registros de eventos, e solicitamos alguns procedimentos manuais usuais, incluindo o reinício do aparelho usado para testar. Apesar dessas verificações, o teste no velocímetro ainda indicou uma velocidade inferior à garantida. Diante dessa situação, o cliente ficou satisfeito com a velocidade atual da rede sem fio.",
+        "externo": false,
         "aguardar": false,
         "etiqueta": "Plano não chega ao contratado - FTTH",
         "etiqueta_externo": "Plano não chega ao contratado",
@@ -610,5 +628,14 @@
         "etiqueta": "Revisão de equipamento",
         "etiqueta_externo": "Revisão de equipamento",
         "servico": "Reparo Rápido"
+    },
+    {
+        "titulo": "CHAMADO PARA TESTE DO SCRIPT PARA AGUARDAR CHAMADO EXTERNO",
+        "mensagem": "solicita alteração do local do modem. Questionado se é uma alteração de cômodo. Informado que em referência ao serviço adicional de Alteração de cômodo existe uma taxa R$30,00 mais metragem de cabo, caso seja utilizado (R$0,60 por metro de cabo de fibra e/ou R$1,30 por metro de cabo de rede). Cliente ciente. Realizar contato para agendamento",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Alteração de cômodo",
+        "etiqueta_externo": "Alteração de cômodo",
+        "servico": "Serviço Adicional"
     }
 ]
