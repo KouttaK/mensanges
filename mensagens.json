@@ -20,7 +20,7 @@
     {
         "titulo": "Desconto por Rota Inoperante",
         "mensagem": "Entra em contato para solicitar desconto referente ao tempo que ficou sem acesso. Foi repassado que o desconto é fornecido somente pelo nosso setor financeiro, que pode ser contactado por ligação no número 0800 281 3017.",
-        "externo": false,
+        "externo": true,
         "aguardar": false,
         "etiqueta": "Desconto de rota inoperante",
         "etiqueta_externo": "Informações do serviço",
