@@ -621,6 +621,15 @@
         "servico": "Reparo Rápido"
     },
     {
+        "titulo": "Netflix - Não funciona em TVs",
+        "mensagem": "entra em contato informando que seu plano da Netflix não funciona em sua TV. Verificado que o plano do mesmo não permite reprodução em outros aparelhos que não sejam um smartphone. Foi explicado ao mesmo que se trata de uma particularidade da própria Netflix e que caso deseje, pode está alterando de plano falando com o nosso setor de SAC para um que tenha a possibilidade de assistir em outros aparelhos.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Netflix",
+        "etiqueta_externo": "Netflix",
+        "servico": "Reparo Rápido"
+    },
+    {
         "titulo": "ONU travada",
         "mensagem": "entrou em contato informando que estava sem internet desde o dia anterior. Após confirmação de que estava falando com o titular, foram solicitados a ID positiva. O cliente informou que havia somente a luz power acesa no modem, indicando que o equipamento estava travado. Foi explicado que seria necessária a visita de uma equipe técnica para resolver o problema.",
         "externo": true,
