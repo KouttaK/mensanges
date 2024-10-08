@@ -86,7 +86,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "Cabo da fibra rompido",
-        "etiqueta_externo": "Cabo da fibra rompido",
+        "etiqueta_externo": "Cabo da Fibra Rompido",
         "servico": "Reparo Físico"
     },
     {
@@ -95,7 +95,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "Troca de cabo fibra - FTTH",
-        "etiqueta_externo": "Cabo da fibra rompido",
+        "etiqueta_externo": "Cabo da Fibra Rompido",
         "servico": "Reparo Físico"
     },
     {
@@ -628,6 +628,33 @@
         "etiqueta": "Revisão de equipamento",
         "etiqueta_externo": "Revisão de equipamento",
         "servico": "Reparo Rápido"
+    },
+    {
+        "titulo": "Configuração de roteador não realizada na instalação - Externo",
+        "mensagem": "informa que o roteador não foi configurado no ato da instalação. Foi verificado que o mesmo solicitou a equipe no ato da instalação e ainda não completou 7 dias da instalação, dessa forma, foi aberto esse chamado de reclamação de instalação para equipe responsável pela instalação verificar o ocorrido e caso necessário mandar uma equipe técnica novamente ao local. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
+        "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
+        "servico": "Serviço Adicional"
+    },
+    {
+        "titulo": "Configuração de roteador não realizada na instalação - Não solicitou",
+        "mensagem": "informa que o roteador não foi configurado no ato da instalação. Foi verificado que o mesmo não solicitou a equipe no ato da instalação essa configuração, dessa forma, foi explicado que a configuração do seu roteador particular é realizada somente caso a pessoa responsável pelo acompanhamento da instalação solicite a configuração do equipamento. Foi a explicado a mesma que dessa forma, somente é possivel enviar a equipe gerando os valores de uma configuração estruturada. Cliente recusou.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
+        "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
+        "servico": "Serviço Adicional"
+    },
+    {
+        "titulo": "Configuração de roteador não realizada na instalação - Passou de 7 dias",
+        "mensagem": "informa que o roteador não foi configurado no ato da instalação. Foi verificado que o mesmo solicitou a equipe no ato da instalação essa configuração, foi explicado que há um prazo máximo de 7 dias para solicitar envio da equipe para configuração de roteador. Após esse prazo, somente é possivel enviar a equipe gerando os valores de uma configuração estruturada. Cliente recusou.  ",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
+        "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
+        "servico": "Serviço Adicional"
     },
     {
         "titulo": "CHAMADO PARA TESTE DO SCRIPT PARA AGUARDAR CHAMADO EXTERNO",
