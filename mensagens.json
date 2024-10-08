@@ -3,7 +3,7 @@
         "titulo": "Suspeita de LOS",
         "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
-        "aguardar": triue,
+        "aguardar": true,
         "etiqueta": "Suspeita de LOS",
         "etiqueta_externo": "Suspeita de LOS",
         "servico": "Reparo Físico"
