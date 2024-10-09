@@ -176,7 +176,7 @@
         "externo": false,
         "aguardar": false,
         "etiqueta": "Quedas na conexão - FTTH",
-        "etiqueta_externo": "Instabilidade na rede WI-FI",
+        "etiqueta_externo": "Instabilidade no WI-FI",
         "servico": "Reparo Rápido"
     },
     {
@@ -185,7 +185,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "Quedas na conexão - FTTH",
-        "etiqueta_externo": "Instabilidade na rede WI-FI",
+        "etiqueta_externo": "Instabilidade no WI-FI",
         "servico": "Reparo Rápido"
     },
     {
@@ -194,7 +194,7 @@
         "externo": false,
         "aguardar": false,
         "etiqueta": "Quedas na conexão - FTTH",
-        "etiqueta_externo": "Quedas na conexão - FTTH",
+        "etiqueta_externo": "Instabilidade no WI-FI",
         "servico": "Reparo Rápido"
     },
     {
