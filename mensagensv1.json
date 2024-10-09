@@ -3,7 +3,7 @@
         "titulo": "Suspeita de LOS",
         "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
-        "aguardar": true,
+        "aguardar": false,
         "etiqueta": "Suspeita de LOS",
         "etiqueta_externo": "Suspeita de LOS",
         "servico": "Reparo Físico"
@@ -20,7 +20,7 @@
     {
         "titulo": "Desconto por Rota Inoperante",
         "mensagem": "Entra em contato para solicitar desconto referente ao tempo que ficou sem acesso. Foi repassado que o desconto é fornecido somente pelo nosso setor financeiro, que pode ser contactado por ligação no número 0800 281 3017.",
-        "externo": true,
+        "externo": false,
         "aguardar": false,
         "etiqueta": "Desconto de rota inoperante",
         "etiqueta_externo": "Informações do serviço",
@@ -41,7 +41,7 @@
         "externo": false,
         "aguardar": false,
         "etiqueta": "PON piscando - FTTH",
-        "etiqueta_externo": "PON piscando - FTTH",
+        "etiqueta_externo": "PON Piscando",
         "servico": "Reparo Físico"
     },
     {
@@ -50,7 +50,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "PON piscando - FTTH",
-        "etiqueta_externo": "PON piscando - FTTH",
+        "etiqueta_externo": "PON Piscando",
         "servico": "Reparo Físico"
     },
     {
@@ -59,7 +59,7 @@
         "externo": false,
         "aguardar": false,
         "etiqueta": "PON piscando - FTTH",
-        "etiqueta_externo": "PON piscando - FTTH",
+        "etiqueta_externo": "PON Piscando",
         "servico": "Reparo Físico"
     },
     {
@@ -68,7 +68,7 @@
         "externo": false,
         "aguardar": false,
         "etiqueta": "PON apagada - FTTH",
-        "etiqueta_externo": "PON apagada - FTTH",
+        "etiqueta_externo": "PON Apagada",
         "servico": "Reparo Físico"
     },
     {
@@ -77,7 +77,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "PON apagada - FTTH",
-        "etiqueta_externo": "PON apagada - FTTH",
+        "etiqueta_externo": "PON Apagada",
         "servico": "Reparo Físico"
     },
     {
