@@ -9,6 +9,15 @@
         "servico": "Reparo Físico"
     },
     {
+        "titulo": "Suspeita de LOS com valor",
+        "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo Físico"
+    },
+    {
         "titulo": "Rota Inoperante",
         "mensagem": "Fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
         "externo": false,
@@ -90,6 +99,15 @@
         "servico": "Reparo Físico"
     },
     {
+        "titulo": "Fibra Rompida com valor",
+        "mensagem": "O cliente informou que devido um serviço em sua residência, a fibra sofreu danos, resultando na interrupção do serviço. Após a confirmação dos dados, foi informado que seria necessário o envio de uma equipe técnica para realizar o reparo. Foi explicado que o custo da visita técnica seria de R$ 20,00 e, se fosse necessário substituir cabos, teria uma taxa adicional de R$ 0,60 por metro de fibra e de R$ 1,30 por metros de cabo de rede. O cliente aceitou o envio da equipe e foi informado que o valor seria cobrado na próxima fatura.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Cabo da fibra rompido",
+        "etiqueta_externo": "Cabo da Fibra Rompido",
+        "servico": "Reparo Físico"
+    },
+    {
         "titulo": "Fibra Ressecada",
         "mensagem": "Relata que o cabo de fibra está ressecado em sua residência, onde ninguém mexeu. O cabo corre o risco de ser roto. Foi aberta uma ordem de serviço para verificar o problema. Agendado de acordo com a disponibilidade do cliente.",
         "externo": true,
@@ -104,7 +122,16 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
-        "etiqueta_externo": "Cabo de fibra baixo/remanejamento",
+        "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
+        "servico": "Serviço Adicional"
+    },
+    {
+        "titulo": "Remanejamento de Fibra com valor",
+        "mensagem": "entra em contato solicitando o remanejamento do cabo de fibra devido uma reforma em sua residência. Foi repassado o valo de R$20,00 mais metragem de cabo de fibra ou rede caso necessário nos valores de R$0,60 e R$1,30 respectivamente. Cliente ciente e deseja o serviço.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
+        "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
         "servico": "Serviço Adicional"
     },
     {
@@ -113,7 +140,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
-        "etiqueta_externo": "Cabo de fibra baixo/remanejamento",
+        "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
         "servico": "Serviço Adicional"
     },
     {
@@ -496,7 +523,7 @@
     },
     {
         "titulo": "Solicitação de cancelamento",
-        "mensagem": "entrou em contato solicitando o cancelamento dos serviços Brisanet. Cliente ciente que o nosso setor de retenção entrará em contato com a mesma.",
+        "mensagem": "entrou em contato solicitando o cancelamento dos serviços Brisanet, o mesmo não quis nenhuma tratativa. Cliente ciente que o nosso setor de retenção entrará em contato com a mesma.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Solicitação de cancelamento",
@@ -663,15 +690,6 @@
         "aguardar": false,
         "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
         "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
-        "servico": "Serviço Adicional"
-    },
-    {
-        "titulo": "CHAMADO PARA TESTE DO SCRIPT PARA AGUARDAR CHAMADO EXTERNO",
-        "mensagem": "solicita alteração do local do modem. Questionado se é uma alteração de cômodo. Informado que em referência ao serviço adicional de Alteração de cômodo existe uma taxa R$30,00 mais metragem de cabo, caso seja utilizado (R$0,60 por metro de cabo de fibra e/ou R$1,30 por metro de cabo de rede). Cliente ciente. Realizar contato para agendamento",
-        "externo": true,
-        "aguardar": true,
-        "etiqueta": "Alteração de cômodo",
-        "etiqueta_externo": "Alteração de cômodo",
         "servico": "Serviço Adicional"
     }
 ]
