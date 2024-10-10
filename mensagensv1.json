@@ -154,7 +154,7 @@
     },
     {
         "titulo": "Lentidão - Ficou testando",
-        "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso continua instável, desta forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+        "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. Foi acordado com o cliente que o mesmo fique testando durante o restante do dia e caso o problema venha a persistir, será aberto uma O.S. Para verificar.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH",
