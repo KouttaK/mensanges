@@ -691,5 +691,32 @@
         "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
         "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
         "servico": "Serviço Adicional"
+    },
+    {
+        "titulo": "Alteração de Cômodo",
+        "mensagem": "solicita alteração do local do modem. Questionado se é uma alteração de cômodo. Informado que em referência ao serviço adicional de Alteração de cômodo existe uma taxa R$30,00 mais metragem de cabo, caso seja utilizado (R$0,60 por metro de cabo de fibra e/ou R$1,30 por metro de cabo de rede). Cliente ciente e agendado conforme sua dispobilidade.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Alteração de cômodo",
+        "etiqueta_externo": "Alteração de cômodo",
+        "servico": "Serviço Adicional"
+    },
+    {
+        "titulo": "Alteração de Cômodo - Cobrar somente cabos",
+        "mensagem": "solicita alteração do local do modem. Questionado se é uma alteração de cômodo. Informado que em referência ao serviço adicional de Alteração de cômodo existe uma taxa R$30,00 mais metragem de cabo, caso seja utilizado (R$0,60 por metro de cabo de fibra e/ou R$1,30 por metro de cabo de rede). Cliente ciente recusa e ameaça cancelamento, dessa forma foi verificado com o líder que liberou o procedimento cobrando somente o valor da metragem de cabo de rede e fibra.Cliente ciente e agendado conforme sua dispobilidade.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Alteração de cômodo",
+        "etiqueta_externo": "Alteração de cômodo",
+        "servico": "Serviço Adicional"
+    },
+    {
+        "titulo": "Alteração de Cômodo - Desconto de R$10",
+        "mensagem": "solicita alteração do local do modem. Questionado se é uma alteração de cômodo. Informado que em referência ao serviço adicional de Alteração de cômodo existe uma taxa R$30,00 mais metragem de cabo, caso seja utilizado (R$0,60 por metro de cabo de fibra e/ou R$1,30 por metro de cabo de rede). Cliente ciente recusa e ameaça cancelamento, dessa forma foi verificado com o líder que liberou o procedimento pelo valor de R$20,00 + metragem de cabo de rede. Cliente ciente e agendado conforme sua dispobilidade.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Alteração de cômodo",
+        "etiqueta_externo": "Alteração de cômodo",
+        "servico": "Serviço Adicional"
     }
 ]
