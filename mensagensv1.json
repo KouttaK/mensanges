@@ -275,7 +275,7 @@
         "externo": true,
         "aguardar": false,
         "etiqueta": "Sinal da fibra do cliente irregular - FTTH",
-        "etiqueta_externo": "Sinal irregular Fibra",
+        "etiqueta_externo": "Sinal Irregular Fibra",
         "servico": "Reparo Físico"
     },
     {
