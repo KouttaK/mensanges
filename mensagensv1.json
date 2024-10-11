@@ -585,6 +585,15 @@
         "servico": "Reparo Físico"
     },
     {
+        "titulo": "Problema geral externo",
+        "mensagem": "entrou em contato relatando lentidão na internet, afetando o uso de aplicativos e sites. Foi informado que, de acordo com um site de acompanhamento de instabilidades, alguns serviços populares, como Instagram e WhatsApp, estavam enfrentando problemas. A cliente foi orientada que, nesse caso, o problema não é relacionado à operadora, mas sim às plataformas em questão, sendo necessário aguardar a normalização automática. O cliente ficou ciente que pode acompanhar o problema dos aplicativo e sites pelo site downdetector.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Instabilidade na entrega do serviço",
+        "etiqueta_externo": "Instabilidade na entrega do serviço",
+        "servico": "Reparo Físico"
+    },
+    {
         "titulo": "Problema em roteador particular - Técnico particular",
         "mensagem": "relatou problemas com seu roteador particular, que estava sem acesso à internet. Após a verificação, foi constatado que o roteador da Brisanet estava funcionando normalmente, mas o roteador específico continuava sem conexão. Foi recomendado que o cliente reinicie o roteador particular, logo após ser reconfigurado os equipamentos da brisanet. Como o acesso não retornou, foi recomendado que verifique as configurações, conexões de cabos e possíveis interferências. Caso o problema persista, foi sugerido entrar em contato com o suporte técnico do roteador para assistência personalizada.",
         "externo": false,
