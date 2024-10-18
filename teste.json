@@ -1,6 +1,7 @@
 [
 {
     "titulo": "Suspeita de LOS",
+    "infra": "FTTH",
     "variacao": [
         {
             "titulo": "Suspeita de LOS - Sem valor",
