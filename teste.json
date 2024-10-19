@@ -11,7 +11,7 @@
                 "etiqueta": "Suspeita de LOS",
                 "etiqueta_externo": "Suspeita de LOS",
                 "servico": "Reparo Físico",
-                "motivoP": true
+                "motivoP": false
             },
             {
                 "titulo": "Suspeita de LOS com valor",
@@ -21,9 +21,46 @@
                 "etiqueta": "Suspeita de LOS",
                 "etiqueta_externo": "Suspeita de LOS",
                 "servico": "Reparo Físico",
-                "motivoP": true
+                "motivoP": false
             }
         ],
         "variacao_selecionada": null
+    },
+    {
+        "titulo": "Torre Inoperante",
+        "infra": "FWA",
+        "variacao": [
+            {
+                "titulo": "Prazo",
+                "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+                "externo": false,
+                "aguardar": false,
+                "etiqueta": "Suspeita de LOS",
+                "etiqueta_externo": "Suspeita de LOS",
+                "servico": "Reparo Físico",
+                "motivoP": false
+            },
+            {
+                "titulo": "Desconto",
+                "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+                "externo": false,
+                "aguardar": false,
+                "etiqueta": "Suspeita de LOS",
+                "etiqueta_externo": "Suspeita de LOS",
+                "servico": "Reparo Físico",
+                "motivoP": false
+            }
+        ],
+    }
+    {
+        "titulo": "Desconeção Chat",
+        "infra": "Geral",
+        "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo Físico",
+        "motivoP": false
     }
 ]
