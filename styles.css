@@ -120,7 +120,7 @@
     line-height: 40px;
   }
 
-  .kttk_label:hover {
+  .kttk_label:hover, .kttk_editButton:hover {
     color: #1890ff;
   }
 
@@ -131,7 +131,7 @@
   }
 
   .kttk_conditional > .kttk_label:hover,
-  .kttk_containerFixo > .kttk_label:hover, .kttk_editButton:hover {
+  .kttk_containerFixo > .kttk_label:hover {
     color: rgba(0,0,0,.65);
   }
 
