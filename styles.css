@@ -1,0 +1,283 @@
+  /* Botão flutuante */
+  .kttk_buttonSidebar {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #0858ce;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  /* Sidebar */
+  .kttk_sidebar {
+    width: 562px;
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    right: -562px;
+    top: 0;
+    transition: right 0.3s ease;
+    z-index: 999;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kttk_sidebar.open {
+    right: 0;
+  }
+.kttk_detal {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #021550;
+    padding: 28px 20px 60px 20px;
+    border-bottom: 1px dotted #455588;
+    border-radius: 0 0 5px 5px;
+  }
+  /* Botão de fechar */
+  .kttk_closed {
+    background-color: #0858ce;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    right: 562px;
+    font-weight: 700;
+    width: 50px;
+    top: 62px;
+    z-index: 999;
+  }
+
+  /* Título do cabeçalho */
+  .kttk_title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 26px 20px 20px;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+  }
+
+  /* Formulário */
+  .kttk_form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 26px 20px 20px;
+    align-items: center;
+  }
+
+  .kttk_form.no-titular {
+    padding: 110px 20px 20px;
+  }
+
+  /* Estilo global para escurecer o fundo ao abrir o sidebar */
+  .kttk_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    display: none;
+  }
+  .kttk_overlay.active {
+    display: block;
+  }
+    /* Estilo do container principal de checkboxes */
+  .kttk_container {
+    background: #fff;
+    width: 522px;
+    position: absolute;
+    padding: 12px;
+    top: -40px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-around;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilo dos labels */
+  .kttk_label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .kttk_label:hover {
+    color: #1890ff;
+  }
+
+  .kttk_conditional > .kttk_label,
+  .kttk_containerFixo > .kttk_label {
+    height: auto;
+    line-height: 1.5;
+  }
+
+  .kttk_conditional > .kttk_label:hover,
+  .kttk_containerFixo > .kttk_label:hover {
+    color: rgba(0,0,0,.65);
+  }
+
+  /* Estilo dos checkboxes */
+  .kttk_cb {
+    margin-right: 10px;
+  }
+
+  /* Estilo do campo condicional */
+  .kttk_conditional {
+    width: 100%;
+  }
+
+  /* Estilo do input condicional */
+  .kttk_input {
+    resize: vertical;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8px 11px;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: rgba(0, 0, 0, .65);
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    transition: all .3s;
+  }
+
+  .kttk_input:focus,
+  .kttk_search:focus {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, .2);
+  }
+
+.kttk_dropdown {
+    width: 100%;
+    max-width: 498px;
+    position: relative;
+    padding: 5px 12px;
+    color: rgba(0, 0, 0, .65);
+    font-weight: 400;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: background .3s ease;
+    overflow: scroll;
+    max-height: 400px;
+    overflow-x: hidden;
+  }
+
+  .kttk_containerFixo {
+    background: #fff;
+    width: 522px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+  }
+
+  .kttk_containerFim {
+    width: 522px;
+    padding: 12px;
+    border-radius: 8px;
+  }
+   /* Estilo do campo de busca */
+  .kttk_search {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  /* Estilo do dropdown */
+  .kttk_dropdown {
+    max-height: 150px;
+  }
+
+  /* Estilo das opções do dropdown */
+  .kttk_option {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+
+  .kttk_option:last-child {
+    border-bottom: none;
+  }
+
+  .kttk_option:hover {
+    background-color: #f0f0f0;
+  }
+  .kttk_input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+  }
+
+  /* Estilo do botão de envio */
+  .kttk_send {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #0858ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .kttk_send svg {
+    fill: #ffffff;
+  }
+
+  .kttk_send:hover {
+    background-color: #0749b0;
+  }
+
+  /* Estilo dos previews */
+  .kttk_preview {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  }
