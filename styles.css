@@ -131,7 +131,7 @@
   }
 
   .kttk_conditional > .kttk_label:hover,
-  .kttk_containerFixo > .kttk_label:hover {
+  .kttk_containerFixo > .kttk_label:hover, .kttk_editButton:hover {
     color: rgba(0,0,0,.65);
   }
 
@@ -261,10 +261,10 @@
 }
 
 .kttk_editButton {
-    background: #ffffff;
+  background: transparent;
     border: 0;
-    text-decoration: underline;
-    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
 }
   .kttk_send {
     margin-top: 20px;
