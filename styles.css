@@ -301,3 +301,46 @@
     width: 100%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
   }
+
+.kttk_modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .kttk_modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+    }
+    .kttk_close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .kttk_close:hover,
+    .kttk_close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .kttk_modal-title {
+      margin-top: 0;
+    }
+    .kttk_modal-footer {
+      margin-top: 20px;
+      text-align: right;
+    }
+    .kttk_modal-footer button {
+      margin-left: 10px;
+    }
