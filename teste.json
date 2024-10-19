@@ -1,77 +1,102 @@
 [
-    {
-        "titulo": "Suspeita de LOS",
-        "infra": "Fibra",
-        "variacao": [
-            {
-                "titulo": "Suspeita de LOS - Sem valor",
-                "mensagem": "Relatou a falta de acesso e a presen\u00e7a de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remo\u00e7\u00e3o de equipamentos, o cliente negou qualquer ocorr\u00eancia. Ap\u00f3s constatar a normalidade da rota, foi gerada uma Ordem de Servi\u00e7o (O.S.) para efetuar uma inspe\u00e7\u00e3o direta no local. Agendado de acordo com a disponibilidade do cliente.",
-                "externo": true,
-                "aguardar": false,
-                "etiqueta": "Suspeita de LOS",
-                "etiqueta_externo": "Suspeita de LOS",
-                "servico": "Reparo F\u00edsico",
-                "motivoP": false
-            },
-            {
-                "titulo": "Suspeita de LOS com valor",
-                "mensagem": "informou problemas de acesso e a presen\u00e7a de um LED vermelho piscando. Ap\u00f3s confirma\u00e7\u00e3o, uma Ordem de Servi\u00e7o foi gerada para realizar uma inspe\u00e7\u00e3o no local. O cliente est\u00e1 ciente da taxa de R$20,00, com a possibilidade de cobran\u00e7as adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-                "externo": true,
-                "aguardar": true,
-                "etiqueta": "Suspeita de LOS",
-                "etiqueta_externo": "Suspeita de LOS",
-                "servico": "Reparo F\u00edsico",
-                "motivoP": false
-            }
-        ],
-        "variacao_selecionada": null
-    },
-    {
-        "titulo": "Torre Inoperante",
-        "infra": "FWA",
-        "variacao": [
-            {
-                "titulo": "Prazo",
-                "mensagem": "Relatou a falta de acesso e a presen\u00e7a de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remo\u00e7\u00e3o de equipamentos, o cliente negou qualquer ocorr\u00eancia. Ap\u00f3s constatar a normalidade da rota, foi gerada uma Ordem de Servi\u00e7o (O.S.) para efetuar uma inspe\u00e7\u00e3o direta no local. Agendado de acordo com a disponibilidade do cliente.",
-                "externo": false,
-                "aguardar": false,
-                "etiqueta": "Suspeita de LOS",
-                "etiqueta_externo": "Suspeita de LOS",
-                "servico": "Reparo F\u00edsico",
-                "motivoP": false
-            },
-            {
-                "titulo": "Desconto",
-                "mensagem": "informou problemas de acesso e a presen\u00e7a de um LED vermelho piscando. Ap\u00f3s confirma\u00e7\u00e3o, uma Ordem de Servi\u00e7o foi gerada para realizar uma inspe\u00e7\u00e3o no local. O cliente est\u00e1 ciente da taxa de R$20,00, com a possibilidade de cobran\u00e7as adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-                "externo": false,
-                "aguardar": false,
-                "etiqueta": "Suspeita de LOS",
-                "etiqueta_externo": "Suspeita de LOS",
-                "servico": "Reparo F\u00edsico",
-                "motivoP": false
-            }
-        ]
-    },
-    {
-        "titulo": "Descone\u00e7\u00e3o Chat",
-        "infra": "Geral",
-        "mensagem": "informou problemas de acesso e a presen\u00e7a de um LED vermelho piscando. Ap\u00f3s confirma\u00e7\u00e3o, uma Ordem de Servi\u00e7o foi gerada para realizar uma inspe\u00e7\u00e3o no local. O cliente est\u00e1 ciente da taxa de R$20,00, com a possibilidade de cobran\u00e7as adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-        "externo": false,
+  {
+    "titulo": "Suspeita de LOS",
+    "infra": "Fibra",
+    "variacao": [
+      {
+        "titulo": "Suspeita de LOS - Sem valor",
+        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
         "aguardar": false,
         "etiqueta": "Suspeita de LOS",
         "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo F\u00edsico",
+        "servico": "Reparo Físico",
         "motivoP": false
-    },
-    {
-        "titulo": "Ativo 2",
-        "infra": "Geral",
-        "mensagem": "informou {motivoP} problemas de acesso e a presen\u00e7a de um LED vermelho piscando. Ap\u00f3s confirma\u00e7\u00e3o, uma Ordem de Servi\u00e7o foi gerada para realizar uma inspe\u00e7\u00e3o no local. O cliente est\u00e1 ciente da taxa de R$20,00, com a possibilidade de cobran\u00e7as adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+      },
+      {
+        "titulo": "Suspeita de LOS com valor",
+        "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo Físico",
+        "motivoP": false
+      }
+    ]
+  },
+  {
+    "titulo": "Torre Inoperante",
+    "infra": "FWA",
+    "variacao": [
+      {
+        "titulo": "Prazo",
+        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Suspeita de LOS",
         "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo F\u00edsico",
+        "servico": "Reparo Físico",
+        "motivoP": false
+      },
+      {
+        "titulo": "Desconto",
+        "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo Físico",
+        "motivoP": false
+      }
+    ]
+  },
+  {
+    "titulo": "Desconexão Chat",
+    "infra": "Geral",
+    "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Suspeita de LOS",
+    "etiqueta_externo": "Suspeita de LOS",
+    "servico": "Reparo Físico",
+    "motivoP": false
+  },
+  {
+    "titulo": "Ativo 2",
+    "infra": "Geral",
+    "mensagem": "informou {motivoP} problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Suspeita de LOS",
+    "etiqueta_externo": "Suspeita de LOS",
+    "servico": "Reparo Físico",
+    "motivoP": true
+  },
+  {
+    "titulo": "Lentidão",
+    "infra": "TV",
+    "variacao": [
+      {
+        "titulo": "Lentidão na TV",
+        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": false,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo Físico",
         "motivoP": true
-    }
+      },
+      {
+        "titulo": "Suspeita de LOS com valor",
+        "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": true,
+        "aguardar": true,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo Físico",
+        "motivoP": false
+      }
+    ]
+  }
 ]
