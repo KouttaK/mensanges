@@ -62,5 +62,16 @@
         "etiqueta_externo": "Suspeita de LOS",
         "servico": "Reparo F\u00edsico",
         "motivoP": false
+    },
+    {
+        "titulo": "Ativo 2",
+        "infra": "Geral",
+        "mensagem": "informou {motivoP} problemas de acesso e a presen\u00e7a de um LED vermelho piscando. Ap\u00f3s confirma\u00e7\u00e3o, uma Ordem de Servi\u00e7o foi gerada para realizar uma inspe\u00e7\u00e3o no local. O cliente est\u00e1 ciente da taxa de R$20,00, com a possibilidade de cobran\u00e7as adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Suspeita de LOS",
+        "etiqueta_externo": "Suspeita de LOS",
+        "servico": "Reparo F\u00edsico",
+        "motivoP": true
     }
 ]
