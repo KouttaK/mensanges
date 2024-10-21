@@ -42,7 +42,7 @@
     border-bottom: 1px dotted #455588;
     border-radius: 0 0 5px 5px;
   }
-.kttk_actionButtons {
+.kttk_naviButtons {
     position: absolute;
     right: 562px;
     top: 62px;
@@ -52,7 +52,7 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
-.kttk_actionButtons > button {
+.kttk_naviButtons > button {
     border: none;
     cursor: pointer;
     padding: 8px 12px;
