@@ -352,4 +352,16 @@
     line-height: 22px;
 }
 
+.kttk_modalContent {
+    padding: 0 12px 20px;
+}
+
+.kttk_modalContent > button#retryButton {
+    background-color: #0858ce;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+}
 
