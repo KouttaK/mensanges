@@ -52,7 +52,7 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
-.kttk_actionButtons . button {
+.kttk_actionButtons > button {
     border: none;
     cursor: pointer;
     padding: 8px 12px;
