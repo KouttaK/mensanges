@@ -42,23 +42,32 @@
     border-bottom: 1px dotted #455588;
     border-radius: 0 0 5px 5px;
   }
-  /* Botão de fechar */
-  .kttk_closedSidebar {
-    background-color: #0858ce;
-    color: #fff;
+.kttk_actionButtons {
+    position: absolute;
+    right: 562px;
+    top: 62px;
+    display: flex;
+    gap: 12px;
+    max-width: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.kttk_actionButtons . button {
     border: none;
     cursor: pointer;
     padding: 8px 12px;
     border-radius: 5px 0 0 5px;
-    position: absolute;
-    right: 562px;
     font-weight: 700;
     width: 50px;
-    top: 62px;
     z-index: 999;
+}
+  /* Botão de fechar */
+  .kttk_closedSidebar {
+    background-color: #0858ce;
+    color: #fff;
   }
   /* Título do cabeçalho */
-  .kttk_title {
+  .kttk_sidebarTitle {
     display: flex;
     flex-direction: column;
     position: relative;
