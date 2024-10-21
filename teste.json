@@ -1,102 +1,99 @@
 [
-  {
-    "titulo": "Suspeita de LOS",
-    "infra": "Fibra",
-    "variacao": [
-      {
-        "titulo": "Suspeita de LOS - Sem valor",
-        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-        "externo": true,
-        "aguardar": false,
-        "etiqueta": "Suspeita de LOS",
-        "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico",
-        "motivoP": false
-      },
-      {
-        "titulo": "Suspeita de LOS com valor",
-        "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-        "externo": true,
-        "aguardar": true,
-        "etiqueta": "Suspeita de LOS",
-        "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico",
-        "motivoP": false
-      }
-    ]
-  },
-  {
-    "titulo": "Torre Inoperante",
-    "infra": "FWA",
-    "variacao": [
-      {
-        "titulo": "Prazo",
-        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+    {
+      "titulo": "OLT em manutenção",
+      "infra": "Fibra",
+      "mensagem": "entrou em contato relatando falta de internet. Foi informado que há uma manutenção em andamento na OLT que afeta o sinal do cliente e de vários outros clientes. Foi repassado o prazo máximo de normalização conforme a URA, porém o serviço pode voltar a qualquer momento. Cliente foi orientado a entrar em contato com o setor financeiro para solicitar desconto referente ao tempo sem acesso após a normalização. Cliente ciente e de acordo.",
+      "externo": false,
+      "aguardar": false,
+      "etiqueta": "Problema na OLT",
+      "etiqueta_externo": "Informações do serviço",
+      "servico": "Reparo Físico",
+      "variacoes": [],
+      "referencia_variacoes": []
+    },
+    {
+      "titulo": "Suspeita de LOS",
+      "infra": "Fibra",
+      "mensagem": "relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+      "externo": true,
+      "aguardar": false,
+      "etiqueta": "Suspeita de LOS",
+      "etiqueta_externo": "Suspeita de LOS",
+      "servico": "Reparo Físico",
+      "variacoes": [
+        {
+          "titulo": "Suspeita de LOS com valor",
+          "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+          "externo": true,
+          "aguardar": true,
+          "etiqueta": "Suspeita de LOS",
+          "etiqueta_externo": "Suspeita de LOS",
+          "servico": "Reparo Físico",
+          "referencia_pai": "Suspeita de LOS"
+        }
+      ],
+      "referencia_variacoes": [
+        "Suspeita de LOS com valor"
+      ]
+    },
+    {
+        "titulo": "Desconexão Chat",
+        "infra": "Geral",
+        "mensagem": "fez contato e durante o atendimento ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": "Suspeita de LOS",
-        "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico",
-        "motivoP": false
-      },
-      {
-        "titulo": "Desconto",
-        "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
+        "etiqueta": "Desconexão Chat",
+        "etiqueta_externo": "",
+        "servico": "",
+        "variacoes": [
+          {
+            "titulo": "Desconexão Chat - Internet",
+            "mensagem": "fez contato para relatar problema em sua conexão a internet. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
+            "externo": false,
+            "aguardar": false,
+            "etiqueta": "Desconexão Chat",
+            "etiqueta_externo": "",
+            "servico": "",
+            "referencia_pai": "Desconexão Chat"
+          },
+          {
+            "titulo": "Desconexão Chat - TV",
+            "mensagem": "fez contato para relatar problema em seu serviço de TV. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
+            "externo": false,
+            "aguardar": false,
+            "etiqueta": "Desconexão Chat",
+            "etiqueta_externo": "",
+            "servico": "",
+            "referencia_pai": "Desconexão Chat"
+          }
+        ],
+        "referencia_variacoes": [
+          "Desconexão Chat - Internet",
+          "Desconexão Chat - TV"
+        ]
+    },
+    {
+        "titulo": "NTP",
+        "infra": "IPTV",
+        "mensagem": "entrou em contato relatando falta de internet. Foi informado que há uma manutenção em andamento na OLT que afeta o sinal do cliente e de vários outros clientes. Foi repassado o prazo máximo de normalização conforme a URA, porém o serviço pode voltar a qualquer momento. Cliente foi orientado a entrar em contato com o setor financeiro para solicitar desconto referente ao tempo sem acesso após a normalização. Cliente ciente e de acordo.",
         "externo": false,
         "aguardar": false,
-        "etiqueta": "Suspeita de LOS",
-        "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico",
-        "motivoP": false
-      }
-    ]
-  },
-  {
-    "titulo": "Desconexão Chat",
-    "infra": "Geral",
-    "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Suspeita de LOS",
-    "etiqueta_externo": "Suspeita de LOS",
-    "servico": "Reparo Físico",
-    "motivoP": false
-  },
-  {
-    "titulo": "Ativo 2",
-    "infra": "Geral",
-    "mensagem": "informou {motivoP} problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Suspeita de LOS",
-    "etiqueta_externo": "Suspeita de LOS",
-    "servico": "Reparo Físico",
-    "motivoP": true
-  },
-  {
-    "titulo": "Lentidão",
-    "infra": "IPTV",
-    "variacao": [
-      {
-        "titulo": "Lentidão na TV",
-        "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-        "externo": true,
-        "aguardar": false,
-        "etiqueta": "Suspeita de LOS",
-        "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico",
-        "motivoP": true
+        "etiqueta": "Problema na OLT",
+        "etiqueta_externo": "",
+        "servico": "",
+        "variacoes": [],
+        "referencia_variacoes": []
       },
-      {
-        "titulo": "Suspeita de LOS com valor",
-        "mensagem": "O cliente informou que está sem acesso e com o LED vermelho piscando. Após a confirmação dos dados, foi gerada uma Ordem de Serviço (O.S.) para realizar uma inspeção no local. O cliente está ciente da taxa de R$ 20,00 para a visita técnica, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
-        "externo": true,
-        "aguardar": true,
-        "etiqueta": "Suspeita de LOS",
-        "etiqueta_externo": "Suspeita de LOS",
+  {
+        "titulo": "Telefone mudo",
+        "infra": "Telefonia",
+        "mensagem": "entrou em contato relatando falta de internet. Foi informado que há uma manutenção em andamento na OLT que afeta o sinal do cliente e de vários outros clientes. Foi repassado o prazo máximo de normalização conforme a URA, porém o serviço pode voltar a qualquer momento. Cliente foi orientado a entrar em contato com o setor financeiro para solicitar desconto referente ao tempo sem acesso após a normalização. Cliente ciente e de acordo.",
+        "externo": false,
+        "aguardar": false,
+        "etiqueta": "Problema na OLT",
+        "etiqueta_externo": "Informações do serviço",
         "servico": "Reparo Físico",
-        "motivoP": false
+        "variacoes": [],
+        "referencia_variacoes": []
       }
-    ]
-  }
-]
+  ]
