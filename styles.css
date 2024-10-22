@@ -26,7 +26,7 @@
     flex-direction: column;
   }
 
-  .kttk_sidebar.active {
+  .kttk_sidebar.open {
     right: 0;
   }
 .kttk_detal {
@@ -60,6 +60,10 @@
     font-weight: 700;
     width: 50px;
     z-index: 999;
+}
+.kttk_transferencia {
+    background-color: #00ba37;
+    color: #fff;
 }
   /* Botão de fechar */
   .kttk_closedSidebar {
