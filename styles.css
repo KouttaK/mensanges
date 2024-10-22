@@ -281,6 +281,7 @@
     border: 0;
     padding: 8px 12px;
     cursor: pointer;
+  width: 100%;
 }
   .kttk_send, 
   .kttk_sendDestaque {
