@@ -136,7 +136,8 @@
         "aguardar": false,
         "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
         "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Fibra"
     },
     {
         "titulo": "Remanejamento de Fibra com valor",
