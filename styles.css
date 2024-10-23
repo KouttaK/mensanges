@@ -349,6 +349,11 @@
     text-align: center;
     z-index: 998;
 }
+.kttk_previewsContainer code {
+    font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
 
 .kttk_modalHeader {
     display: flex;
