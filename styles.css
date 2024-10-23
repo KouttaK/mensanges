@@ -390,18 +390,32 @@
   z-index: 10000;
 }
 
-/* Debug */
-#debugPanel {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  width: 500px;
-  height: 220px;
-  overflow-y: scroll;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 12px;
-  border-radius: 8px;
-  z-index: 10000;
-  display: none;
+
+/* Estilo do accordion */
+.kttk_accordion {
+  margin: 1rem 0;
+}
+.kttk_accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.kttk_accordion-header svg {
+  transition: transform 0.3s ease;
+}
+.kttk_accordion.active .kttk_accordion-header svg {
+  transform: rotate(180deg);
+}
+.kttk_accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.kttk_accordion.active .kttk_accordion-content {
+  max-height: 200px;
+  padding: 1rem 0;
 }
