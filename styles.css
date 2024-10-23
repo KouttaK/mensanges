@@ -393,16 +393,29 @@
 
 /* Estilo do accordion */
 .kttk_accordion {
-  margin: 1rem 0;
+  background: #fff;
+  width: 522px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
 }
 .kttk_accordion-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background-color: #f5f5f5;
   cursor: pointer;
   border-radius: 4px;
+  width: 100%;
+}
+.kttk_accordion-header span {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
 }
 .kttk_accordion-header svg {
   transition: transform 0.3s ease;
@@ -414,6 +427,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
+  width: 100%;
 }
 .kttk_accordion.active .kttk_accordion-content {
   max-height: 200px;
