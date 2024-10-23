@@ -300,11 +300,6 @@
   .kttk_send:hover {
     background-color: #0749b0;
   }
-.previewsTags {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 8px;
-}
 
 .kttk_actionsSend {
     display: flex;
@@ -314,7 +309,26 @@
     justify-content: center;
 }
   /* Estilo dos previews */
-  .kttk_preview {
+  .kttk_previewsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+.kttk_etiInterno, .kttk_etiExterno {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    width: 49%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.kttk_msgF {
     padding: 12px;
     border-radius: 4px;
     background-color: #f9f9f9;
@@ -322,8 +336,7 @@
     color: #333;
     width: 100%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  }
-
+}
 .kttk_modal {
     background: #fff;
     border-radius: 8px;
@@ -431,5 +444,4 @@
 }
 .kttk_accordion.active .kttk_accordion-content {
   max-height: 200px;
-  padding: 1rem 0;
 }
