@@ -6,7 +6,8 @@
         "aguardar": false,
         "etiqueta": "Suspeita de LOS",
         "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Suspeita de LOS com valor",
@@ -15,7 +16,8 @@
         "aguardar": true,
         "etiqueta": "Suspeita de LOS",
         "etiqueta_externo": "Suspeita de LOS",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Rota Inoperante",
@@ -24,16 +26,18 @@
         "aguardar": false,
         "etiqueta": "Rota Inoperante - FTTH",
         "etiqueta_externo": "Rota Inoperante - FTTH",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
-        "titulo": "Desconto por Rota Inoperante",
+        "titulo": "Desconto referente ao tempo sem acesso",
         "mensagem": "Entra em contato para solicitar desconto referente ao tempo que ficou sem acesso. Foi repassado que o desconto é fornecido somente pelo nosso setor financeiro, que pode ser contactado por ligação no número 0800 281 3017.",
         "externo": false,
         "aguardar": false,
         "etiqueta": "Desconto de rota inoperante",
         "etiqueta_externo": "Informações do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "OLT em Manutenção",
@@ -42,7 +46,8 @@
         "aguardar": false,
         "etiqueta": "Problema na OLT",
         "etiqueta_externo": "Informações do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "PON Piscando - Resolvido",
@@ -51,7 +56,8 @@
         "aguardar": false,
         "etiqueta": "PON piscando - FTTH",
         "etiqueta_externo": "PON Piscando",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "PON Piscando - Externo",
@@ -60,7 +66,8 @@
         "aguardar": false,
         "etiqueta": "PON piscando - FTTH",
         "etiqueta_externo": "PON Piscando",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "PON Piscando - GPON",
@@ -69,7 +76,8 @@
         "aguardar": false,
         "etiqueta": "PON piscando - FTTH",
         "etiqueta_externo": "PON Piscando",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "PON Apagada - Resolvido",
@@ -78,7 +86,8 @@
         "aguardar": false,
         "etiqueta": "PON apagada - FTTH",
         "etiqueta_externo": "PON Apagada",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "PON Apagada - Externo",
@@ -87,7 +96,8 @@
         "aguardar": false,
         "etiqueta": "PON apagada - FTTH",
         "etiqueta_externo": "PON Apagada",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Fibra Rompida",
@@ -96,7 +106,8 @@
         "aguardar": false,
         "etiqueta": "Cabo da fibra rompido",
         "etiqueta_externo": "Cabo da Fibra Rompido",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Fibra Rompida com valor",
@@ -105,7 +116,8 @@
         "aguardar": true,
         "etiqueta": "Cabo da fibra rompido",
         "etiqueta_externo": "Cabo da Fibra Rompido",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Fibra Ressecada",
@@ -114,7 +126,8 @@
         "aguardar": false,
         "etiqueta": "Troca de cabo fibra - FTTH",
         "etiqueta_externo": "Cabo da Fibra Rompido",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Remanejamento de Fibra",
@@ -132,7 +145,8 @@
         "aguardar": true,
         "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
         "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Fibra"
     },
     {
         "titulo": "Fibra Baixa",
@@ -141,7 +155,8 @@
         "aguardar": false,
         "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
         "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Fibra"
     },
     {
         "titulo": "Instalação Mal Sucedida",
@@ -150,7 +165,8 @@
         "aguardar": false,
         "etiqueta": "Instalação mal sucedida (sem acesso) - 7d",
         "etiqueta_externo": "Instalação mal sucedida (sem acesso) - 7d",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Comando CRM",
@@ -159,7 +175,8 @@
         "aguardar": false,
         "etiqueta": "Sem acesso",
         "etiqueta_externo": "Sem acesso",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Lentidão - Resolvida",
@@ -168,7 +185,8 @@
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH",
         "etiqueta_externo": "Lentidão ",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Lentidão - Externo",
@@ -177,7 +195,8 @@
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH",
         "etiqueta_externo": "Lentidão",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Lentidão - Ficou testando",
@@ -186,7 +205,8 @@
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH",
         "etiqueta_externo": "Lentidão",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Lentidão - Recorrente",
@@ -195,7 +215,8 @@
         "aguardar": false,
         "etiqueta": "Lentidão - FTTH",
         "etiqueta_externo": "Lentidão",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Quedas de conexão - Resolvido",
@@ -204,7 +225,8 @@
         "aguardar": false,
         "etiqueta": "Quedas na conexão - FTTH",
         "etiqueta_externo": "Instabilidade no WI-FI",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Quedas de conexão - Externo",
@@ -213,7 +235,8 @@
         "aguardar": false,
         "etiqueta": "Quedas na conexão - FTTH",
         "etiqueta_externo": "Instabilidade no WI-FI",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Quedas de conexão - Ficou testando",
@@ -222,7 +245,8 @@
         "aguardar": false,
         "etiqueta": "Quedas na conexão - FTTH",
         "etiqueta_externo": "Instabilidade no WI-FI",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Sem gerencia - Resolvido",
@@ -231,7 +255,8 @@
         "aguardar": false,
         "etiqueta": "Sem acesso TP-LINK",
         "etiqueta_externo": "Sem acesso TP-LINK",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Sem gerencia - Externo",
@@ -240,7 +265,8 @@
         "aguardar": false,
         "etiqueta": "Sem acesso TP-LINK",
         "etiqueta_externo": "Sem acesso TP-LINK",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Sem acesso com sinal - Resolvido",
@@ -249,7 +275,8 @@
         "aguardar": false,
         "etiqueta": "Sem acesso",
         "etiqueta_externo": "Sem acesso",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Sem acesso com sinal - Externo",
@@ -258,7 +285,8 @@
         "aguardar": false,
         "etiqueta": "Sem acesso",
         "etiqueta_externo": "Sem acesso",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Senha da rede wi-fi incorreta",
@@ -267,7 +295,8 @@
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi",
         "etiqueta_externo": "Alteração de senha do wi-fi",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Sinal irregular - externo",
@@ -276,7 +305,8 @@
         "aguardar": false,
         "etiqueta": "Sinal da fibra do cliente irregular - FTTH",
         "etiqueta_externo": "Sinal Irregular Fibra",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Rota com sinal irregular",
@@ -285,7 +315,8 @@
         "aguardar": false,
         "etiqueta": "Rota com sinal irregular - FTTH",
         "etiqueta_externo": "Rota com sinal irregular - FTTH",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Rede sumiu",
@@ -294,7 +325,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade TP-LINK",
         "etiqueta_externo": "Instabilidade TP-LINK",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Ping na rede cabeada - Resolvido",
@@ -303,7 +335,8 @@
         "aguardar": false,
         "etiqueta": "Ping alto",
         "etiqueta_externo": "Cabo da fibra rompido",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Ping na rede cabeada - Ficou testando",
@@ -312,7 +345,8 @@
         "aguardar": false,
         "etiqueta": "Ping alto",
         "etiqueta_externo": "Ping alto",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Alteração de senha - Resolvido",
@@ -321,7 +355,8 @@
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi",
         "etiqueta_externo": "Alteração de senha do wi-fi",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral",
     },
     {
         "titulo": "Alteração de senha - Inativo",
@@ -330,7 +365,8 @@
         "aguardar": false,
         "etiqueta": "Alteração de senha do wi-fi",
         "etiqueta_externo": "Alteração de senha do wi-fi",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Plano no cabo - Resolvido",
@@ -339,7 +375,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega o contratado",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Plano no cabo - Externo",
@@ -348,7 +385,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega o contratado",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Plano no cabo - Ficou testando",
@@ -357,7 +395,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega ao contratado - FTTH",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Cabo de rede inferior ao CAT5E",
@@ -366,7 +405,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega ao contratado - FTTH",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Placa de rede FE",
@@ -375,7 +415,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega ao contratado - FTTH",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Placa de rede FE - externo",
@@ -384,7 +425,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega o contratado",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Plano no wi-fi - Resolvido",
@@ -393,7 +435,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega ao contratado",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Plano no wi-fi - externo",
@@ -402,7 +445,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega o contratado",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Plano no wi-fi - Ficou testando",
@@ -411,7 +455,8 @@
         "aguardar": false,
         "etiqueta": "Plano não chega o contratado - FTTH",
         "etiqueta_externo": "Plano não chega ao contratado - FTTH",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Fibra"
     },
     {
         "titulo": "Desconexão Chat",
@@ -420,7 +465,8 @@
         "aguardar": false,
         "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Desconexão Chat - Internet",
@@ -429,7 +475,8 @@
         "aguardar": false,
         "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Fibra"
     },
     {
         "titulo": "Desconexão Chat - Telefone fixo",
@@ -438,7 +485,8 @@
         "aguardar": false,
         "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Telefonia"
     },
     {
         "titulo": "Desconexão Chat - BrisaTV",
@@ -447,7 +495,8 @@
         "aguardar": false,
         "etiqueta": "Desconexão chat",
         "etiqueta_externo": "Desconexão Chat",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "IPTV"
     },
     {
         "titulo": "Transferência",
@@ -456,7 +505,8 @@
         "aguardar": false,
         "etiqueta": "Solicitação de dados",
         "etiqueta_externo": "Solicitação de dados",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Ausência de confirmação da ID positiva",
@@ -465,7 +515,8 @@
         "aguardar": false,
         "etiqueta": "Ausência de confirmação de dados",
         "etiqueta_externo": "Ausência de confirmação de dados",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Já solucionado",
@@ -474,7 +525,8 @@
         "aguardar": false,
         "etiqueta": "Informações do serviço",
         "etiqueta_externo": "Informações do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Procedimento somente com o titular",
@@ -483,7 +535,8 @@
         "aguardar": false,
         "etiqueta": "Atendimento encerrado - Não é o titular",
         "etiqueta_externo": "Atendimento encerrado - Não é o titular",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Falta de cordialidade",
@@ -492,7 +545,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade na entrega do serviço",
         "etiqueta_externo": "Instabilidade na entrega do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Não está no local",
@@ -501,7 +555,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade na entrega do serviço",
         "etiqueta_externo": "Instabilidade na entrega do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Em horário de expediente",
@@ -510,7 +565,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade na entrega do serviço",
         "etiqueta_externo": "Instabilidade na entrega do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Urgência de última hora",
@@ -519,7 +575,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade na entrega do serviço",
         "etiqueta_externo": "Cabo da fibra rompido",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Solicitação de cancelamento",
@@ -528,7 +585,8 @@
         "aguardar": false,
         "etiqueta": "Solicitação de cancelamento",
         "etiqueta_externo": "Solicitação de cancelamento",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Valores do cancelamento",
@@ -537,7 +595,8 @@
         "aguardar": false,
         "etiqueta": "Informação cancelamento",
         "etiqueta_externo": "Informação cancelamento",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Cobrança de cancelamento",
@@ -546,7 +605,8 @@
         "aguardar": false,
         "etiqueta": "Informação cancelamento",
         "etiqueta_externo": "Informação cancelamento",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Transfêrencia para o setor cancelamento",
@@ -555,7 +615,8 @@
         "aguardar": false,
         "etiqueta": "Informação cancelamento",
         "etiqueta_externo": "Informação cancelamento",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Manutenção no Revan",
@@ -564,7 +625,8 @@
         "aguardar": false,
         "etiqueta": "Sistema interno indisponível",
         "etiqueta_externo": "Sistema interno indisponível",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Instabilidade geral em TP-links",
@@ -573,7 +635,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade TP-Link",
         "etiqueta_externo": "Instabilidade TP-Link",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Problema geral na cidade",
@@ -582,7 +645,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade na entrega do serviço",
         "etiqueta_externo": "Instabilidade na entrega do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Problema geral externo",
@@ -591,7 +655,8 @@
         "aguardar": false,
         "etiqueta": "Instabilidade na entrega do serviço",
         "etiqueta_externo": "Instabilidade na entrega do serviço",
-        "servico": "Reparo Físico"
+        "servico": "Reparo Físico",
+        "infra": "Geral"
     },
     {
         "titulo": "Problema em roteador particular - Técnico particular",
@@ -600,7 +665,8 @@
         "aguardar": false,
         "etiqueta": "Suporte a equipamento particular",
         "etiqueta_externo": "Suporte a equipamento particular",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     },
     {
         "titulo": "BrisaCliente - Primeiro acesso",
@@ -609,7 +675,8 @@
         "aguardar": false,
         "etiqueta": "BrisaCliente",
         "etiqueta_externo": "BrisaCliente",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "BrisaCliente - Primeiro acesso escritorio",
@@ -618,7 +685,8 @@
         "aguardar": false,
         "etiqueta": "BrisaCliente",
         "etiqueta_externo": "BrisaCliente",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "BrisaCliente - Recuperar a senha",
@@ -627,7 +695,8 @@
         "aguardar": false,
         "etiqueta": "BrisaCliente",
         "etiqueta_externo": "BrisaCliente",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Globoplay - Primeiro acesso",
@@ -636,7 +705,8 @@
         "aguardar": false,
         "etiqueta": "Globoplay",
         "etiqueta_externo": "Globoplay",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Globoplay - Suporte do serviço",
@@ -645,7 +715,8 @@
         "aguardar": false,
         "etiqueta": "Globoplay",
         "etiqueta_externo": "Globoplay",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Netflix - Primeiro acesso",
@@ -654,7 +725,8 @@
         "aguardar": false,
         "etiqueta": "Netflix",
         "etiqueta_externo": "Netflix",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Netflix - Não funciona em TVs",
@@ -663,16 +735,18 @@
         "aguardar": false,
         "etiqueta": "Netflix",
         "etiqueta_externo": "Netflix",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
-        "titulo": "ONU travada",
-        "mensagem": "entrou em contato informando que estava sem internet desde o dia anterior. Após confirmação de que estava falando com o titular, foram solicitados a ID positiva. O cliente informou que havia somente a luz power acesa no modem, indicando que o equipamento estava travado. Foi explicado que seria necessária a visita de uma equipe técnica para resolver o problema.",
+        "titulo": "Equipamento  travado",
+        "mensagem": "entrou em contato informando que estava sem internet. Após confirmação de que estava falando com o titular, foram solicitados a ID positiva. O cliente informou que havia somente a luz power acesa/piscando, indicando que o equipamento estava travado. Foi explicado que seria necessária a visita de uma equipe técnica para resolver o problema.",
         "externo": true,
         "aguardar": false,
         "etiqueta": "Revisão de equipamento",
         "etiqueta_externo": "Revisão de equipamento",
-        "servico": "Reparo Rápido"
+        "servico": "Reparo Rápido",
+        "infra": "Geral"
     },
     {
         "titulo": "Configuração de roteador não realizada na instalação - Externo",
@@ -681,7 +755,8 @@
         "aguardar": true,
         "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
         "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     },
     {
         "titulo": "Configuração de roteador não realizada na instalação - Não solicitou",
@@ -690,7 +765,8 @@
         "aguardar": false,
         "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
         "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     },
     {
         "titulo": "Configuração de roteador não realizada na instalação - Passou de 7 dias",
@@ -699,7 +775,8 @@
         "aguardar": false,
         "etiqueta": "Configuração de roteador não realizada na instalação - 7d",
         "etiqueta_externo": "Conf. roteador não realizada na instalação - 7d",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     },
     {
         "titulo": "Alteração de Cômodo",
@@ -708,7 +785,8 @@
         "aguardar": true,
         "etiqueta": "Alteração de cômodo",
         "etiqueta_externo": "Alteração de cômodo",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     },
     {
         "titulo": "Alteração de Cômodo - Cobrar somente cabos",
@@ -717,7 +795,8 @@
         "aguardar": true,
         "etiqueta": "Alteração de cômodo",
         "etiqueta_externo": "Alteração de cômodo",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     },
     {
         "titulo": "Alteração de Cômodo - Desconto de R$10",
@@ -726,6 +805,7 @@
         "aguardar": true,
         "etiqueta": "Alteração de cômodo",
         "etiqueta_externo": "Alteração de cômodo",
-        "servico": "Serviço Adicional"
+        "servico": "Serviço Adicional",
+        "infra": "Geral"
     }
 ]
