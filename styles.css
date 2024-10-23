@@ -137,7 +137,8 @@
 }
 
 .kttk_label:hover,
-.kttk_editButton:hover {
+.kttk_editButton:hover,
+.kttk_editSend:hover {
   color: #1890ff;
 }
 
@@ -265,17 +266,18 @@
   gap: 12px;
 }
 
-.kttk_editMSG {
-  width: 100%;
-  text-align: center;
-}
-
 .kttk_editSend {
   background: transparent;
-  border: 0;
   padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
+  text-align: center;
+  display: flex;
   width: 100%;
+  justify-content: center;
+  gap: 8px;
 }
 .kttk_send,
 .kttk_sendDestaque {
@@ -289,6 +291,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
 .kttk_send svg {
@@ -298,7 +301,8 @@
   margin-left: 4px;
 }
 
-.kttk_send:hover {
+.kttk_send:hover,
+.kttk_sendDestaque:hover {
   background-color: #0749b0;
 }
 
@@ -308,6 +312,7 @@
   gap: 8px;
   text-align: center;
   justify-content: center;
+  margin-bottom: 12px;
 }
 /* Estilo dos previews */
 .kttk_previewsContainer {
@@ -340,6 +345,7 @@
   width: 100%;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
   position: relative;
+  margin-top: 12px;
 }
 .kttk_etiInterno span,
 .kttk_etiExterno span,
