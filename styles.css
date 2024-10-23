@@ -79,7 +79,6 @@
     align-items: center;
     color: #fff;
     font-size: 2em;
-    display: none;
   }
   .kttk_closedSidebar.active {
     display: block;
