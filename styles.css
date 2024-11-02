@@ -77,13 +77,14 @@
   flex-direction: column;
 }
 .kttk_naviButtons > button {
-  border: none;
-  cursor: pointer;
-  padding: 8px 12px;
-  border-radius: 5px 0 0 5px;
-  font-weight: 700;
-  width: 50px;
-  z-index: 999;
+    position: absolute;
+    right: 100%;
+    top: 62px;
+    display: flex;
+    gap: 12px;
+    max-width: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .kttk_transferencia {
   background-color: #00ba37;
