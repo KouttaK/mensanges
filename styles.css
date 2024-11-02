@@ -24,39 +24,30 @@
 
 /* Overlay */
 .kttk_overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9997;
-  display: none;
-}
-
-/* Classes de estado */
-.hidden {
-  display: none !important;
-}
-
-.dragging {
-  opacity: 0.8;
-  cursor: grabbing;
+      display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
 }
 
 /* Sidebar */
 .kttk_sidebar {
-  width: 562px;
-  height: 100vh;
-  background-color: #f0f4f9;
-  position: fixed;
-  right: -562px;
-  top: 0;
-  transition: right 0.3s ease;
-  z-index: 999;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
+  width: 33%;
+    height: 100vh;
+    background-color: #f0f4f9;
+    position: fixed;
+    right: -562px;
+    top: 0;
+    transition: right 0.3s ease;
+    z-index: 999;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
 }
 
 .kttk_sidebar.open {
