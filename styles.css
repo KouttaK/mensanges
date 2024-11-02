@@ -80,7 +80,7 @@
     position: absolute;
     right: 100%;
     top: 62px;
-    display: flex;
+    display: none;
     gap: 12px;
     max-width: 50px;
     flex-wrap: wrap;
