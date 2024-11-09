@@ -1,5 +1,8 @@
 /* Estilo dos elementos do próprio site */
-body {overflow: hidden;}
+
+body {
+  overflow: hidden;
+}
 
 /* Botão flutuante */
 .kttk_buttonSidebar {
@@ -38,37 +41,33 @@ body {overflow: hidden;}
 
 /* Sidebar */
 .kttk_sidebar {
-  width: calc(33% + 50px);
-  height: 100vh;
   background-color: #f0f4f9;
   position: fixed;
-  right: calc(-33% + -100px);
+  max-width: calc(33% + 50px);
   top: 0;
-  transition: right 0.3s ease;
+  transition: transform 0.3s ease;
   z-index: 999;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transform: translateX(357%);
 }
 
 .kttk_sidebar.open {
-  right: 0;
+  /* This transform value is used to position the sidebar off-screen when it is open */
+  transform: translateX(calc(157% + 101px));
+}
+.kttk_contentScroll {
+  overflow-y: auto;
+  height: 100vh;
 }
 .kttk_detal {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
   background: #021550;
   padding: 28px 20px 60px 20px;
-  border-bottom: 1px dotted #455588;
   border-radius: 0 0 5px 5px;
+  position: relative;
 }
 .kttk_naviButtons {
   position: absolute;
-  right: 100%;
   top: 62px;
+  right: 100%;
   gap: 12px;
   flex-direction: column;
   display: flex;
@@ -84,7 +83,7 @@ body {overflow: hidden;}
   border-radius: 8px 0 0 8px;
   cursor: pointer;
 }
-.kttk_transferencia {
+.kttk_transfer {
   background-color: #00ba37;
   color: #fff;
 }
@@ -113,7 +112,6 @@ body {overflow: hidden;}
   flex-direction: column;
   position: relative;
   padding: 26px 20px 20px;
-  align-items: center;
 }
 
 .kttk_form.no-titular {
@@ -188,6 +186,12 @@ body {overflow: hidden;}
   line-height: 1.5;
   background-color: #fff;
   transition: all 0.3s;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 .kttk_input:focus,
@@ -261,14 +265,7 @@ li.kttk_dropdownItem {
   background-color: #f5f5f5;
 }
 
-.kttk_input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
+/* Removed duplicate .kttk_input class */
 
 /* Estilo dos botões de envio */
 .kttk_containerButtons {
@@ -335,10 +332,9 @@ li.kttk_dropdownItem {
   width: calc(100%);
   gap: 0 16px;
 }
-
 .kttk_etiInterno,
 .kttk_etiExterno {
-  max-width: calc(36% - -15px);
+  max-width: calc(36% + 15px);
 }
 
 .kttk_msgF,
