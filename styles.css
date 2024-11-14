@@ -121,7 +121,7 @@ body {
 .kttk_form.no-titular > .kttk_container > .kttk_conditional {
   display: block !important;
 }
-.kttk_externoContainer {
+.kttk_containerFixo.kttk_externoContainer {
   display: none;
 }
 
