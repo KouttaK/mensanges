@@ -1,6 +1,8 @@
 /* Estilo dos elementos do próprio site */
 
-
+body {
+  overflow: hidden;
+}
 
 /* Botão flutuante */
 .kttk_buttonSidebar {
@@ -44,7 +46,7 @@
   top: 0;
   transition: transform 0.3s ease;
   z-index: 999;
-  max-width: 33vw;
+  max-width: calc(33vw + 80px);
   transform: translateX(calc(157% + 100px));
   right: 0;
 }
@@ -119,7 +121,13 @@
 .kttk_form.no-titular > .kttk_container > .kttk_conditional {
   display: block !important;
 }
+.kttk_externoContainer {
+  display: none;
+}
 
+.trueExterno .kttk_externoContainer {
+  display: flex;
+}
 /* Estilo do container principal de checkboxes */
 .kttk_container {
   background: #fff;
