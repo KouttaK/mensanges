@@ -114,7 +114,7 @@
     "mensagem": "Relata que algo rompeu o cabo de fibra fora de sua residência. Não foi necessário realizar alguma sondagem. Foi aberta uma ordem de serviço para resolução do problema e a visita técnica agendada para de acordo com a disponibilidade do cliente.",
     "externo": true,
     "aguardar": false,
-    "etiqueta": "Cabo da fibra rompido",
+    "etiqueta": "Cabo da Fibra Rompido",
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
     "infra": "Fibra",
