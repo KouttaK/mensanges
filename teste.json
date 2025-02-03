@@ -92,7 +92,7 @@
     "mensagem": "Entrou em contato informando que os serviços da Brisanet estão sem sinal. Ao ser questionado sobre a ativação da LED PON e a ocorrência de acidentes ou remoção de equipamento, o cliente negou qualquer incidente. Após verificar que a rota está normal, procedeu-se à reconfiguração e reinicialização do modem ONU, além de conectá-lo em outra tomada de energia. O cliente reportou que o acesso foi normalizado.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "PON apagada - FTTH",
+    "etiqueta": "Pon apagada - FTTH",
     "etiqueta_externo": "PON Apagada",
     "servico": "Reparo Físico",
     "infra": "Fibra",
