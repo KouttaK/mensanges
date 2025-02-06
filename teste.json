@@ -38,7 +38,7 @@
     "externo": false,
     "aguardar": false,
     "etiqueta": "Desconto de rota inoperante",
-    "etiqueta_externo": "Informações do serviço",
+    "etiqueta_externo": "Informações do Serviço",
     "servico": "Reparo Físico",
     "infra": "Geral",
     "prioridade": 0
@@ -49,7 +49,7 @@
     "externo": false,
     "aguardar": false,
     "etiqueta": "Problema na OLT",
-    "etiqueta_externo": "Informações do serviço",
+    "etiqueta_externo": "Informações do Serviço",
     "servico": "Reparo Físico",
     "infra": "Fibra",
     "prioridade": 2
@@ -576,7 +576,7 @@
     "mensagem": "comunica que no início do atendimento a questão já foi solucionada, tornando desnecessária a continuação do suporte.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "Informações do serviço",
+    "etiqueta": "Informações do Serviço",
     "etiqueta_externo": "Informações do Serviço",
     "servico": "Reparo Físico",
     "infra": "Geral",
