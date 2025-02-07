@@ -818,7 +818,7 @@
     "mensagem": "entrou em contato informando que estava sem internet. Após confirmação de que estava falando com o titular, foram solicitados a ID positiva. O cliente informou que havia somente a luz power acesa/piscando, indicando que o equipamento estava travado. Foi explicado que seria necessária a visita de uma equipe técnica para resolver o problema.",
     "externo": true,
     "aguardar": false,
-    "etiqueta": "Revisão de equipamento",
+    "etiqueta": "Revisão de Equipamento",
     "etiqueta_externo": "Revisão de equipamento",
     "servico": "Reparo Rápido",
     "infra": "Geral",
