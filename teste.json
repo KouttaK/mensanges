@@ -868,6 +868,17 @@
     "infra": "Geral",
     "prioridade": 0
   },
+{
+    "titulo": "Protocolo duplicado",
+    "mensagem": "Chamado duplicado, o cliente já foi atendido em outro chamado.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Cliente já atendido",
+    "etiqueta_externo": "Cliente já atendido",
+    "servico": "Serviço Adicional",
+    "infra": "Geral",
+    "prioridade": 0
+  },
   {
     "titulo": "Alteração de Cômodo",
     "mensagem": "solicita alteração do local do modem. Questionado se é uma alteração de cômodo. Informado que em referência ao serviço adicional de Alteração de cômodo existe uma taxa R$30,00 mais metragem de cabo, caso seja utilizado (R$0,60 por metro de cabo de fibra e/ou R$1,30 por metro de cabo de rede). Cliente ciente e agendado conforme sua dispobilidade.",
