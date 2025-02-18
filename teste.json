@@ -186,6 +186,17 @@
     "infra": "Geral",
     "prioridade": 0
   },
+{
+    "titulo": "Torre inoperate",
+    "mensagem": "fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a uma manutenção da torre que impactou toda a sua região. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
+    "externo": true,
+    "aguardar": false,
+    "etiqueta": "Torre inoperante - FWA",
+    "etiqueta_externo": "Torre inoperante - FWA",
+    "servico": "Reparo Físico",
+    "infra": "FWA",
+    "prioridade": 0
+  },
   {
     "titulo": "Comando CRM",
     "mensagem": "Relata que está sem acesso à internet. Verificamos o comando CRM no sistema e reforçamos o prazo de 24 horas para a resolução do problema. Ressaltamos que se trata do comando de ativação do serviço.",
