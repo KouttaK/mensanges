@@ -136,7 +136,7 @@
     "mensagem": "Relata que o cabo de fibra está ressecado em sua residência, onde ninguém mexeu. O cabo corre o risco de ser roto. Foi aberta uma ordem de serviço para verificar o problema. Agendado de acordo com a disponibilidade do cliente.",
     "externo": true,
     "aguardar": false,
-    "etiqueta": "Troca de cabo fibra - FTTH",
+    "etiqueta": "Troca de Cabo Fibra - FTTH",
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
     "infra": "Fibra",
