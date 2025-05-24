@@ -870,7 +870,7 @@
   },
 {
     "titulo": "Protocolo duplicado",
-    "mensagem": "Chamado duplicado, o cliente já foi atendido em outro chamado.",
+    "mensagem": "Chamado aberto de forma automatico pela URA por mais de 72 horas, sem interação de agentes. Dessa forma, está sendo finalizado. Att Adryan Franco.",
     "externo": false,
     "aguardar": false,
     "etiqueta": "Cliente já atendido",
